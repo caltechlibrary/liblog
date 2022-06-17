@@ -5,7 +5,7 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
   <!-- write_head_public.twig -->
   <title>
-   Caltech Library News - Library at California Institute of Technology
+   Caltech Library News - Caltech Library
   </title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <meta content="noarchive" name="robots"/>
@@ -22,7 +22,7 @@
   <!-- !favicon.twig -->
   <link href="/web/jquery/css/jquery-ui.min.css?2695" rel="stylesheet"/>
   <link href="/web/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="/web/css2.16.6/lg-public-no-bs.min.css" rel="stylesheet"/>
+  <link href="/web/css2.16.7/lg-public-no-bs.min.css" rel="stylesheet"/>
   <script async="" src="//cdn.matomo.cloud/caltechlibrary.matomo.cloud/matomo.js">
   </script>
   <script src="/web/jquery/js/1.12.4_jquery.min.js">
@@ -34,7 +34,7 @@
    jQuery.ui || document.write('<script src="/web/jquery/js/jquery-ui.min.js?2695">\x3C/script>');
   </script>
   <!-- !js_include_fallback_lg.twig -->
-  <script src="/web/js2.16.6/lg-public-no-bs.min.js" type="text/javascript">
+  <script src="/web/js2.16.7/lg-public-no-bs.min.js" type="text/javascript">
   </script>
   <!-- !write_head_public.twig -->
   <link href="//libapps.s3.amazonaws.com/sites/64/include/bootstrap.min.css" id="bootstrap-css" rel="stylesheet"/>
@@ -79,7 +79,7 @@
             data: {
                 action: 5,
                 app_id: 1,
-                domain: "libguides.caltech.edu",
+                domain: "library.caltech.edu",
                 site_id: 64,
                 auth_reload: 1
             }
@@ -291,11 +291,11 @@
                                         }
                                         if (!CKEDITOR.instances.editor_content) {
                                             CKEDITOR.replace( "editor_content", {
-                                                customConfig: "../js2.16.6/ckeditor-latest/config.js",
+                                                customConfig: "../js2.16.7/ckeditor-latest/config.js",
                                                 height: "285px",
                                                 allowedContent: true,
                                                 image_previewText: " ",
-                                                filebrowserBrowseUrl: "https://caltech.libapps.com/libapps/image_manager_popup.php?load_mode=4&protocol=https&remote_domain=libguides.caltech.edu&CKEditor=editor_content",
+                                                filebrowserBrowseUrl: "https://caltech.libapps.com/libapps/image_manager_popup.php?load_mode=4&protocol=https&remote_domain=library.caltech.edu&CKEditor=editor_content",
                                                 filebrowserWindowWidth: 845,
                                                 filebrowserWindowHeight: 700,
                                                 format_tags: "p;h1;h2;h3;h4;h5;h6;pre",
@@ -656,7 +656,7 @@
                                             cache: false,
                                             data: {
                                                 action: 821,
-                                                time: 0
+                                                time: 0,
                                                 guide_id: springSpace.blogs.guide_id,
                                                 thread_id: springSpace.blogs.thread.id,
                                                 account_id: config.account_id,
@@ -685,11 +685,11 @@
                                                     }
 
                                                     CKEDITOR.replace( "editor_content", {
-                                                        customConfig: "../js2.16.6/ckeditor-latest/config.js",
+                                                        customConfig: "../js2.16.7/ckeditor-latest/config.js",
                                                         height: "285px",
                                                         allowedContent: true,
                                                         image_previewText: " ",
-                                                        filebrowserBrowseUrl: "https://caltech.libapps.com/libapps/image_manager_popup.php?load_mode=4&protocol=https&remote_domain=libguides.caltech.edu&CKEditor=editor_content",
+                                                        filebrowserBrowseUrl: "https://caltech.libapps.com/libapps/image_manager_popup.php?load_mode=4&protocol=https&remote_domain=library.caltech.edu&CKEditor=editor_content",
                                                         filebrowserWindowWidth: 845,
                                                         filebrowserWindowHeight: 700,
                                                         format_tags: "p;h1;h2;h3;h4;h5;h6;pre",
@@ -819,7 +819,7 @@
                                                         cache: false,
                                                         data: {
                                                             action: 810,
-                                                            time: 0
+                                                            time: 0,
                                                             view_mode: 2,
                                                             pids: children.join(),
                                                             pres: 0,
@@ -879,7 +879,7 @@
                                                         cache: false,
                                                         data: {
                                                             action: 810,
-                                                            time: 0
+                                                            time: 0,
                                                             view_mode: 2,
                                                             pids: children.join(),
                                                             pres: jQuery("#comment-"+children[0]).data("delete-type"),
@@ -935,7 +935,7 @@
                                                         cache: false,
                                                         data: {
                                                             action: 810,
-                                                            time: 0
+                                                            time: 0,
                                                             view_mode: 2,
                                                             pids: post_id,
                                                             return: "",
@@ -1025,7 +1025,7 @@
                                         cache: false,
                                         data: {
                                             action: 818,
-                                            time: 0
+                                            time: 0,
                                             view_mode: config.view_mode,
                                             thread_id: config.thread_id,
                                             guide_id: config.guide_id,
@@ -1112,7 +1112,7 @@
                                         cache: false,
                                         data: {
                                             action: 817,
-                                            time: 0
+                                            time: 0,
                                             archive: config.archive,
                                             view_mode: config.view_mode,
                                             guide_id: springSpace.blogs.guide_id,
@@ -1190,7 +1190,7 @@
                                                 cache: false,
                                                 data: {
                                                     action: 821,
-                                                    time: 0
+                                                    time: 0,
                                                     guide_id: springSpace.blogs.guide_id,
                                                     thread_id: springSpace.blogs.thread.id,
                                                     account_id: config.account_id,
@@ -1708,11 +1708,11 @@ springStats.saConfig = springStats.saConfig || {
                             }
   </style>
   <link href="/rss/blog.php" rel="alternate" type="application/rss+xml"/>
-  <script src="//libapps.s3.amazonaws.com/sites/64/include/bootstrap.min.js">
+  <script id="bootstrap-js" src="//libapps.s3.amazonaws.com/sites/64/include/bootstrap.min.js">
   </script>
  </head>
  <body class="s-lib-public-body blog-post">
-  <div class="container" id="s-ui-cc-container" style="opacity: 0.503142;">
+  <div class="container" id="s-ui-cc-container" style="opacity: 0.0285047;">
    <aside aria-label="User Privacy Alert" class="navbar navbar-default navbar-fixed-bottom" id="s-ui-cc-navbar">
     <div class="container" id="s-ui-cc-main">
      <div class="navbar-inner navbar-content-center" id="s-ui-cc-msg-container">
@@ -2899,6 +2899,18 @@ springStats.saConfig = springStats.saConfig || {
         Archives News
        </a>
        <br/>
+       <a href="?tag_id=215943" onclick="springSpace.blogs.loadMain({tag_id: 215943});return false;" rel="nofollow">
+        CaltechDATA
+       </a>
+       <br/>
+       <a href="?tag_id=215944" onclick="springSpace.blogs.loadMain({tag_id: 215944});return false;" rel="nofollow">
+        Journals News
+       </a>
+       <br/>
+       <a href="?tag_id=215942" onclick="springSpace.blogs.loadMain({tag_id: 215942});return false;" rel="nofollow">
+        Library News
+       </a>
+       <br/>
        <a href="?tag_id=215403" onclick="springSpace.blogs.loadMain({tag_id: 215403});return false;" rel="nofollow">
         Talk of the Archives
        </a>
@@ -2914,7 +2926,7 @@ springStats.saConfig = springStats.saConfig || {
        <hr style="margin-bottom:5px;margin-top: -5px"/>
        <i class="fa fa-facebook-square">
        </i>
-       <a href="https://www.facebook.com/CaltechLibrary">
+       <a href="https://www.facebook.com/CaltechArchives/">
         Facebook
        </a>
        <br/>
@@ -3044,7 +3056,7 @@ springStats.saConfig = springStats.saConfig || {
           </a>
          </li>
          <li id="s-lib-bc-site">
-          <a href="https://libguides.caltech.edu/" title="Library">
+          <a href="https://library.caltech.edu/" title="Library">
            Library
           </a>
          </li>
@@ -3069,6 +3081,118 @@ springStats.saConfig = springStats.saConfig || {
        <script src="https://libcal.caltech.edu/js/hours_today.js">
        </script>
        <div id="s_lc_tdh_3271_0">
+        <div id="s-lc-w-today-cont-0">
+         <table class="s-lc-w-today">
+          <caption class="s-lc-w-sr-only">
+           Display of Opening hours
+          </caption>
+          <thead>
+           <tr>
+            <th class="s-lc-w-head" colspan="2">
+             <button class="s-lc-w-btn s-lc-w-next" data-date="2022-06-17">
+              Next Day
+             </button>
+             <span class="s-lc-w-head-pre">
+              Hours
+              <br/>
+             </span>
+             <span>
+              Thursday, June 16, 2022
+             </span>
+            </th>
+           </tr>
+          </thead>
+          <tbody>
+           <tr class="s-lc-w-times s-lc-w-lid-3107 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Sherman Fairchild Library
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              8am-8pm *
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-3108 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Caltech Hall Library
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              8am-5pm *
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-3301 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Cahill Library
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              8am to 5pm †
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-3109 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Dabney Library
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              8am to 5pm †
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-3110 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Geology Library
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              8am to 5pm †
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-19162 s-lc-w-location">
+            <td class="s-lc-w-name">
+             <a href="https://www.library.caltech.edu/techhub" target="_blank">
+              TechHub
+             </a>
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-timetxt">
+              12pm - 4pm *
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-3297 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Archives Reading Room
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-byap">
+              By Appointment
+             </span>
+            </td>
+           </tr>
+           <tr class="s-lc-w-times s-lc-w-lid-19226 s-lc-w-location">
+            <td class="s-lc-w-name">
+             Becoming Caltech Exhibition
+            </td>
+            <td class="s-lc-w-time">
+             <span class="s-lc-byap">
+              By Appointment
+             </span>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <div class="s-lc-w-today-view-all">
+          <a class="s-lc-w-today-view-link" href="https://libcal.caltech.edu/hours/">
+           View all Hours
+          </a>
+         </div>
+        </div>
        </div>
        <footer>
         <div>
