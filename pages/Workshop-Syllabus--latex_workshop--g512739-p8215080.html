@@ -1,0 +1,1332 @@
+<div class="container s-lib-main s-lib-side-borders" id="s-lg-guide-main" tabindex="-1">
+ <div class="row s-lg-row">
+  <div class="col-md-12" id="s-lg-col-126">
+   <div class="s-lg-col-boxes s-lg-box-special">
+    <div class="s-lg-box-wrapper-30622284" id="s-lg-box-wrapper-30622284">
+     <div class="s-lib-box-container" id="s-lg-box-26056526-container">
+      <div class="s-lib-box s-lib-box-std" id="s-lg-box-26056526">
+       <h2 class="s-lib-box-title">
+        Before The Class
+       </h2>
+       <div id="s-lg-box-collapse-26056526">
+        <div class="s-lib-box-content">
+         <div class="clearfix" id="s-lg-content-60147932">
+          <p>
+           Before the workshop, please make sure you have completed the following:
+          </p>
+          <ol>
+           <li>
+            You are able to log into Overleaf through Caltech's institutional portal:
+            <ol>
+             <li>
+              Log into Overleaf here using your @caltech.edu email here:
+              <a href="https://www.overleaf.com/institutional-login">
+               https://www.overleaf.com/institutional-login
+              </a>
+             </li>
+             <li>
+              You will then be asked to enter your access.caltech credentials (if you haven’t already entered them in your current browser session).
+             </li>
+             <li>
+              You should then be at the main Overleaf account page.
+             </li>
+            </ol>
+           </li>
+           <li>
+            You have downloaded the following four files (right-click and select "Save As"):
+            <ol>
+             <li>
+              <a href="https://raw.githubusercontent.com/caltechlibrary/latex_workshop/main/latex_workshop.tex">
+               latex_workshop.tex
+              </a>
+             </li>
+             <li>
+              <a href="https://raw.githubusercontent.com/caltechlibrary/latex_workshop/main/latex_workshop_tips.tex">
+               latex_workshop_tips.tex
+              </a>
+             </li>
+             <li>
+              <a href="https://raw.githubusercontent.com/caltechlibrary/latex_workshop/main/latex_workshop_bib_file.bib">
+               latex_workshop_bib_file.bib
+              </a>
+             </li>
+             <li>
+              <a href="https://github.com/caltechlibrary/latex_workshop/raw/main/workshop_image.png">
+               workshop_image.png
+              </a>
+             </li>
+            </ol>
+           </li>
+           <li>
+            You have uploaded the files to your Overleaf account in a new project:
+            <ol>
+             <li>
+              Click “New Project” at the top of the left menu.
+             </li>
+             <li>
+              Select “Blank Project”.
+             </li>
+             <li>
+              Enter a name for the project (i.e. 2022-02-24-Workshop).
+             </li>
+             <li>
+              This will create a new project with a default “main.tex” file.
+             </li>
+             <li>
+              Upload the four files downloaded above to the project by clicking the “Upload” button in the upper left:
+              <br/>
+              <img alt="" loading="lazy" src="https://libapps.s3.amazonaws.com/accounts/80500/images/overleaf_upload.png" style="width: 250px; height: 113px;"/>
+             </li>
+             <li>
+              You can delete the “main.tex” file if you wish by clicking the three dots to the right of the filename and  selecting “Delete”.
+             </li>
+            </ol>
+           </li>
+          </ol>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="row s-lg-row">
+  <div class="col-md-12" id="s-lg-col-1">
+   <div class="s-lg-col-boxes">
+    <div class="s-lg-box-wrapper-30629151" id="s-lg-box-wrapper-30629151">
+     <div class="s-lib-box-container" id="s-lg-box-26062209-container">
+      <div class="s-lib-box s-lib-box-std" id="s-lg-box-26062209">
+       <h2 class="s-lib-box-title">
+        Creating A Document
+       </h2>
+       <div id="s-lg-box-collapse-26062209">
+        <div class="s-lib-box-content">
+         <div class="clearfix" id="s-lg-content-60162713">
+          <h4>
+           <strong>
+            LaTeX Structures
+           </strong>
+          </h4>
+          <p>
+           <strong>
+            Commands
+           </strong>
+          </p>
+          <p>
+           Commands are a vital structure for creating any kind of document in LaTeX.  Commands have many uses such as changing document/text formatting, creating equations, delineating sections of a document, and inputting symbols.  To use a command a back slash is placed before the command.  For example
+           <strong>
+            \pi
+           </strong>
+           is the command to insert the symbol π and
+           <strong>
+            \begin{matrix}
+           </strong>
+           is one of the commands needed to input a matrix.  Generally commands have the format
+           <strong>
+            \command[optional argument]{required argument}
+           </strong>
+           . Multiple arguments can be used with some commands by separating each argument with a comma, for example
+           <strong>
+            \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+           </strong>
+           sets the font color of certain hyperlinks in a document.  Some commands such as
+           <strong>
+            \pi
+           </strong>
+           have neither a optional nor required argument.  Others such as
+           <strong>
+            \begin{}
+           </strong>
+           will only work with a recognized required argument.  Some commands can also accept an optional argument which is used to specify what action the command will take, for example
+           <strong>
+            \documentclass[11pt, twocolumn]{article}
+           </strong>
+           tells LaTeX that the current project is an article with 11pt font and should be formatted with two columns, leaving out the optional argument,
+           <strong>
+            \documentclass{article}
+           </strong>
+           , will cause LaTeX to use the defaults associated with this command  Lastly, some commands may have more than one required argument for example
+           <strong>
+            \frac{numerator}{denominator}
+           </strong>
+           creates a faction where the first argument is the numerator and the second argument is the denominator.  A list of common commands can be seen in the
+           <strong>
+            Common Commands
+           </strong>
+           section of this page, there are also links to several useful websites with lists of commands in the
+           <a href="https://guides.nyu.edu/c.php?g=601858&amp;p=4168135">
+            resources
+           </a>
+           tab.
+          </p>
+          <p>
+           <strong>
+            Packages
+           </strong>
+          </p>
+          <p>
+           Packages are used to supplement the standard features of LaTeX.  If you are trying to use a command and find that it is generating an error one of the most common issues is that you have not included the needed package in your document.  The command
+           <strong>
+            \usepackage{}
+           </strong>
+           with the package name as the argument will tell LaTeX to include a certain package in your document. Packages should be placed in the document preamble (see
+           <strong>
+            Document Structure
+           </strong>
+           below).  If you would like to include multiple packages in your document you can either include the
+           <strong>
+            \usepackage{}
+           </strong>
+           command multiple times or use it once and separate each package name with a comma i.e.:
+          </p>
+          <p>
+           \usepackage{geometry}
+          </p>
+          <p>
+           \usepackage{amsmath}                                  \usepackage{geometry, amsmath, graphicx}
+          </p>
+          <p>
+           \usepackage{graphicx}
+          </p>
+          <p>
+           It is better to list the packages separately if you intend to use an optional argument with any package, otherwise it just comes down to personal preference.  Many standard packages come with a MikTex or MacTex download, but you can also install new ones if needed.  Some instruction for
+           <a href="https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages">
+            installing new packages
+           </a>
+           can be found online.  See the
+           <strong>
+            Common Packages
+           </strong>
+           part of this page for a list of some useful packages.
+          </p>
+          <p>
+           <strong>
+            Text
+           </strong>
+          </p>
+          <p>
+           Writing text in a LaTeX document is easy.  Once you are inside the body of the document, as described in the
+           <strong>
+            Document Structure
+           </strong>
+           section of this page, all you have to do is start typing.  When you compile the code LaTeX will take care of all the text formatting based on any commands and packages used.
+          </p>
+          <p>
+           <strong>
+            Math
+           </strong>
+          </p>
+          <p>
+           Incorporating mathematical symbols and equations is one of the most popular features of LaTeX.  There are a number of ways to include math in a LaTeX document, for more information see the
+           <strong>
+            Document Structure
+           </strong>
+           section of this page.
+          </p>
+          <p>
+           ​
+           <strong>
+            Comments
+           </strong>
+          </p>
+          <p>
+           Anything that follows a % in a line of code will be treated as a comment and ignored by compiler.  If you want to include a percentage symbol in your text use the command
+           <strong>
+            \%
+           </strong>
+           for example of you want to write 100% in LaTeX you would write 100\%
+          </p>
+          <hr/>
+          <h4>
+           <strong>
+            Document Structure
+           </strong>
+          </h4>
+          <p>
+           To create PDFs with LaTeX the user must generate a .tex file. The .tex file will consist of the code that is compiled by the back end LaTeX software to generate the end result PDF document. With LaTeX installed .tex files can be created in notepad or textedit on Windows or OS X computers respectively, though it is strongly recommenced to generate these files directly in a LaTeX text editor.
+          </p>
+          <p>
+           A LaTeX document consists of two main pieces, the
+           <strong>
+            preamble
+           </strong>
+           and the
+           <strong>
+            body
+           </strong>
+           , the bibliography can be considered a third piece depending on how you structure it. It is recommended that the user creates a new folder on their computer for each LaTeX document they are working on.  When LaTeX compiles a .tex file it generates several files in order to create the PDF having a folder for the each individual document you are working on will help keep all of the files generated organized.  Additionally, it possible the user will want to insert images, figures, or other objects into their document (BibTex files for example), it is much simpler to insert items into the document when they are located in the same folder as the .tex file.
+          </p>
+          <p>
+           <strong>
+            Preamble
+           </strong>
+          </p>
+          <p>
+           The preamble to a LaTeX document is all the information that occurs before the document begins.  The preamble starts with the command
+           <strong>
+            \documentclass{}
+           </strong>
+           and ends with the command
+           <strong>
+            \begin{document}
+           </strong>
+           .  Below is an image of a document preamble:
+          </p>
+          <p>
+           <img alt="Image of LaTeX code showing the preamble of a document. " loading="lazy" src="https://s3.amazonaws.com/libapps/accounts/109251/images/Screen_Shot_2016-12-23_at_1.25.32_PM.png"/>
+          </p>
+          <p>
+           Different objects are placed in the preamble between the commands
+           <strong>
+            \documentclass{}
+           </strong>
+           and
+           <strong>
+            \begin{document}
+           </strong>
+           .  The most common of these items is the command
+           <strong>
+            \usepackage{}
+           </strong>
+           .  A more detailed explanation of what packages are can be found under the
+           <strong>
+            LaTeX Structures
+           </strong>
+           heading on this page, but briefly a package informs the compiler of certain commands that will be used and certain procedures to take while generating the final document.  Any number of packages can be included in the preamble, and one of the most common mistakes made by the new LaTeX user is to include a command in their document without including the proper package in the preamble.  Other commands such as
+           <strong>
+            \title
+           </strong>
+           ,
+           <strong>
+            \author
+           </strong>
+           , and
+           <strong>
+            \date
+           </strong>
+           are included in the preamble and than may be incorporated within the document.  Lastly, new commands can be created in the preamble that will only be used in the current document.
+          </p>
+          <p>
+           <strong>
+            Body
+           </strong>
+          </p>
+          <p>
+           The body of a LaTeX document is where all of the text, equations, figures, tables, etc... will be placed.  The body of the document begins with the command
+           <strong>
+            \begin{document}
+           </strong>
+           and ends with the command
+           <strong>
+            \end{document}
+           </strong>
+           .  A very simple sample code and its output can be seen below.  The code contains both the preamble and body of the document.
+          </p>
+          <p>
+           <img alt="Image showing the body of a LaTeX document" loading="lazy" src="https://s3.amazonaws.com/libapps/accounts/109251/images/Screen_Shot_2016-12-23_at_1.24.08_PM.png"/>
+          </p>
+          <p>
+           <img alt="Image of a document produced by LaTeX." loading="lazy" src="https://s3.amazonaws.com/libapps/accounts/109251/images/Screen_Shot_2016-12-23_at_1.50.50_PM.png"/>
+          </p>
+          <p>
+           <strong>
+            Writing Math
+           </strong>
+          </p>
+          <p>
+           One of the most popular features of LaTeX is its ability to easily incorporate and format mathematical equations and symbols.  There are two important things to remember to ensure LaTeX handles mathematical formula properly.
+          </p>
+          <p>
+           First is to make sure that you have included all necessary packages.  The most common package for using mathematical formulas in a document is "amsmath", though this package allows the use of a multitude of mathematical symbols and commands it does not include everything.  If you try to compile a document and an error occurs related to a mathematical object you have included you will want to check if there is an additional package you need, for example if you try to include bold lettering in a mathematical equation without the package "bm" an error will occur.
+          </p>
+          <p>
+           Second is to entire
+           <strong>
+            math mode
+           </strong>
+           .  Math mode lets LaTeX know that something should be formatted as math and not regular text, there are also some symbols and commands that can not be used outside of math mode.  The image below shows the same text, f(x) = 2x+5, first not using math mode and second using it.  There is a very clear difference between how the equation is formatted inside and outside of math mode.
+          </p>
+          <p>
+           <img alt="Image comparing mathematics written in and out of LaTeX's math mode" loading="lazy" src="https://s3.amazonaws.com/libapps/accounts/109251/images/Screen_Shot_2016-12-23_at_2.19.08_PM.png"/>
+          </p>
+          <p>
+           There are several different ways to enter math mode.  If you would like to write mathematical expression inside a line of text all the mathematical text should be book ended by
+           <strong>
+            $
+           </strong>
+           .  For example writing $x+3$ would tell LaTeX to write x+3 as math. If you want math to appear on its own line it what is called display mode you can use either the command
+           <strong>
+            $$
+           </strong>
+           on both sides of the math, or
+           <strong>
+            \[
+           </strong>
+           and
+           <strong>
+            \]
+           </strong>
+           .  The previous example would look like this: $$x+3$$ or \[x+3\].  Finally, some commands will automatically place the user in math mode for example any text appearing between the commands
+           <strong>
+            \begin{equation}
+           </strong>
+           and
+           <strong>
+            \end{equation}
+           </strong>
+           will be written in math mode.  Go to the exercises tab for some questions to let you practice using math mode.
+          </p>
+          <hr/>
+          <h4>
+           <strong>
+            Common Commands
+           </strong>
+          </h4>
+          <p>
+           Here is a list of some useful and common commands for LaTeX.  Links to more exhaustive lists can be found on the
+           <a href="https://guides.nyu.edu/c.php?g=601858&amp;p=4168135">
+            resources
+           </a>
+           tab of this guide.  If you are looking for specific mathematical symbols check the links on the resources tab.  If you are interested in more information about a specific command a simple Google search will often provide great results.
+          </p>
+          <p>
+           <strong>
+            Preamble commands:
+           </strong>
+          </p>
+          <p>
+           <strong>
+            \documentclass{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           The first command in any document.  Used to specify what type of document is being made.  Some common arguments are article (common for scientific journals), book, IEEEtran (for IEEE transaction format), slides, beamer (for presentations).
+          </p>
+          <p>
+           <strong>
+            \usepackage{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           This command imports a package into the LaTeX document.  This is important for including any commands that are not standard in LaTeX.
+          </p>
+          <p>
+           <strong>
+            \title{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           The intended title of the document should be used as the argument
+          </p>
+          <p>
+           <strong>
+            \author{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           The author of the document should be used as the argument, for multiple authors use
+           <strong>
+            \and
+           </strong>
+           to separate authors name or use the
+           <strong>
+            authblk
+           </strong>
+           package.  For the
+           <strong>
+            authblk
+           </strong>
+           package uses the following format where
+           <strong>
+            \affil
+           </strong>
+           is used to entire the affiliation of the author and the optional argument denotes the whatever symbol should be used after the author's name:
+          </p>
+          <p style="margin-left: 40px;">
+           \author[1]{1st Author}
+           <br/>
+           \author[1]{2nd Author}
+           <br/>
+           \author[1]{3rd Author}
+           <br/>
+           \author[2]{Nth Author}
+           <br/>
+           \affil[1]{Institute 1}
+           <br/>
+           \affil[2]{Institute 2}
+          </p>
+          <p>
+           <strong>
+            \date{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           The argument is the date associated with the document.  Note that leaving the argument empty will create a blank date in the title, and not including the command will default the title to the date compiled.
+          </p>
+          <p style="margin-left: 40px;">
+          </p>
+          <p>
+           <strong>
+            Body commands:
+           </strong>
+          </p>
+          <p>
+           <strong>
+            \maketitle
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           Creates a title based on the
+           <strong>
+            \title
+           </strong>
+           ,
+           <strong>
+            \author
+           </strong>
+           , and
+           <strong>
+            \date
+           </strong>
+           provided.
+          </p>
+          <p>
+           <strong>
+            \tableofcontents
+           </strong>
+           ,
+           <strong>
+            \listoffigures
+           </strong>
+           ,
+           <strong>
+            \listoftables
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           Creates a table of content, list of figures, and/or list of tables.
+          </p>
+          <p>
+           <strong>
+            \newpage{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           Creates a new page
+          </p>
+          <p>
+           <strong>
+            \\
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           Creates a line break
+          </p>
+          <p>
+           <b>
+            \begin{}
+           </b>
+           and
+           <strong>
+            \end{}
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           Whenever there is a
+           <b>
+            \begin{}
+           </b>
+           it must be paired with an
+           <strong>
+            \end{}
+           </strong>
+           with the same argument at some point later in the document.  The
+           <strong>
+            \begin{}
+           </strong>
+           command tells LaTeX to entire a certain environment while the
+           <strong>
+            \end{}
+           </strong>
+           command concludes that environment.
+           <strong>
+            \begin{document}
+           </strong>
+           will start the body of the document (end the preamble) and
+           <strong>
+            \end{document}
+           </strong>
+           will end the document.  Other common arguments are
+           <strong>
+            equation
+           </strong>
+           ,
+           <strong>
+            align
+           </strong>
+           ,
+           <strong>
+            tabular
+           </strong>
+           , and
+           <strong>
+            figure
+           </strong>
+           .
+          </p>
+          <p>
+           <b>
+            \section{}
+           </b>
+          </p>
+          <p style="margin-left: 40px;">
+           Denotes a new section.  The title section should be used as the argument.  Sections will be automatically included in the table of contents. Use the commands
+           <strong>
+            \subsection{}
+           </strong>
+           and
+           <strong>
+            \subsubsection{}
+           </strong>
+           to create sections within sections.
+          </p>
+          <hr/>
+          <h4>
+           <strong>
+            Common Packages
+           </strong>
+          </h4>
+          <p>
+           Packages allow for additional features to be used within a LaTeX document. Both MikTex and MacTex come pre-installed with a large number of standard packages and
+           <a href="https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages">
+            instructions for installing
+           </a>
+           new packages. Overleaf also comes with
+           <a href="https://www.overleaf.com/learn/how-to/What_packages_do_you_support%3F">
+            standard packages based on TeX Live 2020
+           </a>
+           . To use a package include the command
+           <strong>
+            \usepackage{}
+           </strong>
+           where the argument is the package name i.e.
+           <strong>
+            \usepackage{amsmath}
+           </strong>
+           . Below is a brief list of some useful LaTeX packages:
+          </p>
+          <p>
+           <strong>
+            amsmath
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           This package allows for more complicated mathematical structures within a document such as matrices.
+          </p>
+          <p>
+           <strong>
+            geometry
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           This package is for the more advanced user.  It allows the user to better control the formatting of the document.
+          </p>
+          <p>
+           <b>
+            graphicx
+           </b>
+          </p>
+          <p style="margin-left: 40px;">
+           This package allows graphics to be integrated into a document.
+          </p>
+          <p>
+           <strong>
+            hyperref
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           This package allows for hyperlinks inside a document.  Use the command
+           <strong>
+            \hypersetup{}
+           </strong>
+           to control different link colors.
+          </p>
+          <p>
+           <strong>
+            booktabs
+           </strong>
+          </p>
+          <p style="margin-left: 40px;">
+           A useful package if you are having trouble with spacing inside of tables.
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="s-lg-box-wrapper-30636041" id="s-lg-box-wrapper-30636041">
+     <div class="s-lib-box-container" id="s-lg-box-26068210-container">
+      <div class="s-lib-box s-lib-box-std" id="s-lg-box-26068210">
+       <h2 class="s-lib-box-title">
+        BibTeX
+       </h2>
+       <div id="s-lg-box-collapse-26068210">
+        <div class="s-lib-box-content">
+         <div class="clearfix" id="s-lg-content-60178991">
+          <h4>
+           <strong>
+            Introduction
+           </strong>
+          </h4>
+          <p>
+           Since LaTeX is often used to create academic works that will cite many different sources it is important to know how to create a bibliography in LaTeX. With a little practice and the help of a citation management creating LaTeX bibliographies can be very easy.
+          </p>
+          <p>
+           It is strongly recommend that you use a citation management tool, not only to help create LaTeX bibliographies, but to help organize and track articles, books, and other documents throughout your academic career. Caltech offers training and support for Zotero, and more information can be found on our
+           <a href="https://libguides.caltech.edu/citation-management">
+            Zotero guide
+           </a>
+           .
+          </p>
+          <p>
+           <strong>
+            Important note:
+           </strong>
+           When creating a bibliography you will need to compile the document twice in order to create properly formatted references.
+          </p>
+          <hr/>
+          <h4>
+           <strong>
+            Creating a Bibliography
+           </strong>
+          </h4>
+          <p>
+           There are two parts to creating a bibliography in a LaTeX document.
+          </p>
+          <p>
+           <strong>
+            Part one
+           </strong>
+           is the creation of a separate
+           <strong>
+            .bib
+           </strong>
+           file. This file contains all of the citation information (i.e. title, author, publication date, publisher, etc...), as will as, a
+           <strong>
+            bibID
+           </strong>
+           for each citation.  It is strongly recommended to use a citation management tool to create your
+           <strong>
+            .bib
+           </strong>
+           files.  Those tools will greatly speed up the process and help keep the file organized, generate automatic
+           <strong>
+            bibIDs (
+           </strong>
+           which can be edited if desired), and auto fill all relevant data fields which will prevent typos or bugs within the file.  Below is an example of the
+           <strong>
+            .bib
+           </strong>
+           format for four different common references if you choose to entire them yourself.
+           <strong>
+            Note that not all fields are required and any unused field should be deleted
+           </strong>
+           .  The
+           <strong>
+            bibID
+           </strong>
+           is what is used in the main LaTeX document to create in-line references as well as completed bibliographies.  When creating the final bibliography LaTeX will only include citations that were referenced in the document, so its ok to have unused citations in your
+           <strong>
+            .bib
+           </strong>
+           file.
+          </p>
+          <table border="1">
+           <tbody>
+            <tr align="center">
+             <td>
+              <strong>
+               Article
+              </strong>
+             </td>
+             <td>
+              <strong>
+               Book
+              </strong>
+             </td>
+             <td>
+              <strong>
+               Online Resource
+              </strong>
+             </td>
+             <td>
+              <strong>
+               Conference Proceeding
+              </strong>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              @article{
+              <strong>
+               bibID
+              </strong>
+              ,
+              <br/>
+              author = {author},
+              <br/>
+              title = {title},
+              <br/>
+              journaltitle = {journaltitle},
+              <br/>
+              date = {date},
+              <br/>
+              OPTtranslator = {translator},
+              <br/>
+              OPTannotator = {annotator},
+              <br/>
+              OPTcommentator = {commentator},
+              <br/>
+              OPTsubtitle = {subtitle},
+              <br/>
+              OPTtitleaddon = {titleaddon},
+              <br/>
+              OPTeditor = {editor},
+              <br/>
+              OPTeditora = {editora},
+              <br/>
+              OPTeditorb = {editorb},
+              <br/>
+              OPTeditorc = {editorc},
+              <br/>
+              OPTjournalsubtitle = {journalsubtitle},
+              <br/>
+              OPTissuetitle = {issuetitle},
+              <br/>
+              OPTissuesubtitle = {issuesubtitle},
+              <br/>
+              OPTlanguage = {language},
+              <br/>
+              OPToriglanguage = {origlanguage},
+              <br/>
+              OPTseries = {series},
+              <br/>
+              OPTvolume = {volume},
+              <br/>
+              OPTnumber = {number},
+              <br/>
+              OPTeid = {eid},
+              <br/>
+              OPTissue = {issue},
+              <br/>
+              OPTmonth = {month},
+              <br/>
+              OPTpages = {pages},
+              <br/>
+              OPTversion = {version},
+              <br/>
+              OPTnote = {note},
+              <br/>
+              OPTissn = {issn},
+              <br/>
+              OPTaddendum = {addendum},
+              <br/>
+              OPTpubstate = {pubstate},
+              <br/>
+              OPTdoi = {doi},
+              <br/>
+              OPTeprint = {eprint},
+              <br/>
+              OPTeprintclass = {eprintclass},
+              <br/>
+              OPTeprinttype = {eprinttype},
+              <br/>
+              OPTurl = {url},
+              <br/>
+              OPTurldate = {urldate},
+              <br/>
+              }
+             </td>
+             <td>
+              @book{
+              <strong>
+               bibID
+              </strong>
+              ,
+              <br/>
+              author = {author},
+              <br/>
+              title = {title},
+              <br/>
+              date = {date},
+              <br/>
+              OPTeditor = {editor},
+              <br/>
+              OPTeditora = {editora},
+              <br/>
+              OPTeditorb = {editorb},
+              <br/>
+              OPTeditorc = {editorc},
+              <br/>
+              OPTtranslator = {translator},
+              <br/>
+              OPTannotator = {annotator},
+              <br/>
+              OPTcommentator = {commentator},
+              <br/>
+              OPTintroduction = {introduction},
+              <br/>
+              OPTforeword = {foreword},
+              <br/>
+              OPTafterword = {afterword},
+              <br/>
+              OPTsubtitle = {subtitle},
+              <br/>
+              OPTtitleaddon = {titleaddon},
+              <br/>
+              OPTmaintitle = {maintitle},
+              <br/>
+              OPTmainsubtitle = {mainsubtitle},
+              <br/>
+              OPTmaintitleaddon = {maintitleaddon},
+              <br/>
+              OPTlanguage = {language},
+              <br/>
+              OPToriglanguage = {origlanguage},
+              <br/>
+              OPTvolume = {volume},
+              <br/>
+              OPTpart = {part},
+              <br/>
+              OPTedition = {edition},
+              <br/>
+              OPTvolumes = {volumes},
+              <br/>
+              OPTseries = {series},
+              <br/>
+              OPTnumber = {number},
+              <br/>
+              OPTnote = {note},
+              <br/>
+              OPTpublisher = {publisher},
+              <br/>
+              OPTlocation = {location},
+              <br/>
+              OPTisbn = {isbn},
+              <br/>
+              OPTchapter = {chapter},
+              <br/>
+              OPTpages = {pages},
+              <br/>
+              OPTpagetotal = {pagetotal},
+              <br/>
+              OPTaddendum = {addendum},
+              <br/>
+              OPTpubstate = {pubstate},
+              <br/>
+              OPTdoi = {doi},
+              <br/>
+              OPTeprint = {eprint},
+              <br/>
+              OPTeprintclass = {eprintclass},
+              <br/>
+              OPTeprinttype = {eprinttype},
+              <br/>
+              OPTurl = {url},
+              <br/>
+              OPTurldate = {urldate},
+              <br/>
+              }
+             </td>
+             <td>
+              @online{
+              <strong>
+               bibID
+              </strong>
+              ,
+              <br/>
+              ALTauthor = {author},
+              <br/>
+              ALTeditor = {editor},
+              <br/>
+              title = {title},
+              <br/>
+              date = {date},
+              <br/>
+              url = {url},
+              <br/>
+              OPTsubtitle = {subtitle},
+              <br/>
+              OPTtitleaddon = {titleaddon},
+              <br/>
+              OPTlanguage = {language},
+              <br/>
+              OPTversion = {version},
+              <br/>
+              OPTnote = {note},
+              <br/>
+              OPTorganization = {organization},
+              <br/>
+              OPTdate = {date},
+              <br/>
+              OPTmonth = {month},
+              <br/>
+              OPTyear = {year},
+              <br/>
+              OPTaddendum = {addendum},
+              <br/>
+              OPTpubstate = {pubstate},
+              <br/>
+              OPTurldate = {urldate},
+              <br/>
+              }
+             </td>
+             <td>
+              @proceedings{
+              <strong>
+               bibID
+              </strong>
+              ,
+              <br/>
+              editor = {editor},
+              <br/>
+              title = {title},
+              <br/>
+              date = {date},
+              <br/>
+              OPTsubtitle = {subtitle},
+              <br/>
+              OPTtitleaddon = {titleaddon},
+              <br/>
+              OPTmaintitle = {maintitle},
+              <br/>
+              OPTmainsubtitle = {mainsubtitle},
+              <br/>
+              OPTmaintitleaddon = {maintitleaddon},
+              <br/>
+              OPTeventtitle = {eventtitle},
+              <br/>
+              OPTeventdate = {eventdate},
+              <br/>
+              OPTvenue = {venue},
+              <br/>
+              OPTlanguage = {language},
+              <br/>
+              OPTvolume = {volume},
+              <br/>
+              OPTpart = {part},
+              <br/>
+              OPTvolumes = {volumes},
+              <br/>
+              OPTseries = {series},
+              <br/>
+              OPTnumber = {number},
+              <br/>
+              OPTnote = {note},
+              <br/>
+              OPTorganization = {organization},
+              <br/>
+              OPTpublisher = {publisher},
+              <br/>
+              OPTlocation = {location},
+              <br/>
+              OPTmonth = {month},
+              <br/>
+              OPTisbn = {isbn},
+              <br/>
+              OPTchapter = {chapter},
+              <br/>
+              OPTpages = {pages},
+              <br/>
+              OPTpagetotal = {pagetotal},
+              <br/>
+              OPTaddendum = {addendum},
+              <br/>
+              OPTpubstate = {pubstate},
+              <br/>
+              OPTdoi = {doi},
+              <br/>
+              OPTeprint = {eprint},
+              <br/>
+              OPTeprintclass = {eprintclass},
+              <br/>
+              OPTeprinttype = {eprinttype},
+              <br/>
+              OPTurl = {url},
+              <br/>
+              OPTurldate = {urldate},
+              <br/>
+              }
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <p>
+          </p>
+          <p>
+           <strong>
+            Part two
+           </strong>
+           is integrating the information from the.bib file into your main LaTeX document.  The three ways for doing so are using
+           <a href="https://www.sharelatex.com/learn/Bibliography_management_with_bibtex">
+            BibTex
+           </a>
+           ,
+           <a href="https://www.sharelatex.com/learn/Bibliography_management_with_natbib">
+            BibTex with natbib
+           </a>
+           , or
+           <a href="https://www.sharelatex.com/learn/Bibliography_management_in_LaTeX">
+            BibLaTeX
+           </a>
+           .  The hyperlinks will take you to explanation of each method from sharelatex.com.  Both BibTex with natbib and BibLaTeX have the advantage of optional arguments because they require a
+           <strong>
+            \usepackage[]{}
+           </strong>
+           command.  These optional arguments can be used to fine tune how references appear throughout the document and the formatting of the bibliography.  Below is a table that highlights some of the important difference for each method.
+          </p>
+          <table border="1">
+           <tbody>
+            <tr>
+             <td>
+             </td>
+             <td>
+              <strong>
+               BibTex
+              </strong>
+             </td>
+             <td>
+              <strong>
+               BibTex with natbib
+              </strong>
+             </td>
+             <td>
+              <strong>
+               BibLaTeX
+              </strong>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <strong>
+               Packages Needed
+              </strong>
+             </td>
+             <td>
+              None
+             </td>
+             <td>
+              natbib
+             </td>
+             <td>
+              biblatex
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <p>
+               <strong>
+                In document
+               </strong>
+              </p>
+              <p>
+               <strong>
+                command
+               </strong>
+              </p>
+              <p>
+               <strong>
+                for citation
+               </strong>
+              </p>
+             </td>
+             <td>
+              \cite{bibID}
+             </td>
+             <td>
+              \cite{bibID}
+             </td>
+             <td>
+              \cite{bibID}
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <p>
+               <strong>
+                Bibliography
+               </strong>
+              </p>
+              <p>
+               <strong>
+                styles
+               </strong>
+              </p>
+             </td>
+             <td>
+              <p>
+               <strong>
+                Use command (place in body
+               </strong>
+               <strong>
+                ):
+               </strong>
+              </p>
+              <p>
+               \biblographystyle{stylename}
+              </p>
+              <p>
+               <strong>
+                Common Stylenames
+               </strong>
+               :
+              </p>
+              <p>
+               abbrv
+               <br/>
+               acm
+               <br/>
+               alpha
+               <br/>
+               apalike
+               <br/>
+               ieeetr
+               <br/>
+               plain
+               <br/>
+               siam
+               <br/>
+               unsrt
+              </p>
+             </td>
+             <td>
+              <p>
+               <strong>
+                Use command (place in preamble
+               </strong>
+               <strong>
+                ):
+               </strong>
+              </p>
+              <p>
+               \biblographystyle{stylename}
+              </p>
+              <p>
+               <strong>
+                Common Stylenames
+               </strong>
+               :
+              </p>
+              <p>
+               dinat
+               <br/>
+               humannat
+               <br/>
+               plainnat
+               <br/>
+               abbrvnat
+               <br/>
+               unsrtnat
+               <br/>
+               rusnat
+               <br/>
+               ksfh_nat
+              </p>
+             </td>
+             <td>
+              <p>
+               <b>
+                Optional Argument
+               </b>
+              </p>
+              <p>
+               <b>
+                of \usepackage:
+               </b>
+              </p>
+              <p>
+               \usepackage[
+               <br/>
+               style=stylename,
+               <br/>
+               ]{biblatex}
+              </p>
+              <p>
+               <strong>
+                Common Stylenames
+               </strong>
+               :
+              </p>
+              <p>
+               numeric
+               <br/>
+               alphabetic
+               <br/>
+               authoryear
+               <br/>
+               authortitle
+               <br/>
+               verbose
+               <br/>
+               reading
+               <br/>
+               draft
+              </p>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <p>
+               <strong>
+                Print bibliography
+               </strong>
+              </p>
+              <p>
+               <strong>
+                command
+               </strong>
+              </p>
+             </td>
+             <td>
+              <p>
+               \bibliography{bibfilename}
+              </p>
+              <p>
+               DO NOT INCLUDE .bib
+              </p>
+             </td>
+             <td>
+              <p>
+               \bibliography{bibfilename}
+              </p>
+              <p>
+               DO NOT INCLUDE .bib
+              </p>
+             </td>
+             <td>
+              <p>
+               \printbibliography
+              </p>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="row s-lg-row">
+  <div class="col-md-12" id="s-lg-col-127">
+   <div class="s-lg-col-boxes">
+   </div>
+  </div>
+ </div>
+</div>
