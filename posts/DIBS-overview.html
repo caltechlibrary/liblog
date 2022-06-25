@@ -1,0 +1,97 @@
+<div class="row" id="comment-100218">
+ <div class="col-md-12 col-md-offset-0 first-post">
+  <div class="row">
+   <div class="col-md-12">
+    <h2 class="s-lg-blog-header">
+     How the Library’s Digital Borrowing Service (DIBS) Solved a Pandemic Problem
+    </h2>
+    <span style="margin-bottom:10px;display:inline-block;color:#777;">
+     by Chris Daley on
+     <span class="moment-date-header" title="2022-02-09T12:00:00-08:00">
+      February 9th, 2022
+     </span>
+     in
+     <a href="?tag_id=215942" onclick="springSpace.blogs.loadMain({tag_id: 215942});return false;" rel="nofollow">
+      Library News
+     </a>
+    </span>
+    <br/>
+    <p>
+     <img alt="screengrab of digital item available for loan" loading="lazy" src="http://web.archive.org/web/20220209230706im_/https://lh4.googleusercontent.com/0Piz03NR-0bfhftLkHUw2ajaRReRdgZZMNbTfIGWzLvP9YGPMRsOz_ehCL9_dcML8p2y999rE_utVVcr0bQb_WAPwmOj9jZS7_kTXOfu7r8IX672mv9dQCa18msZ0LGg73NI4Sqt" style="float: left; width: 315px; height: 256px;"/>
+     <img alt="screengrab of pages in viewing software" loading="lazy" src="http://web.archive.org/web/20220209230706im_/https://lh5.googleusercontent.com/usgaY4xJIEm6h6SfxU57ccCaYPsEHjQM8x1g3njTE5OGWW2qf_H8KEpntYvnvXePeFta7vrbsGMTNbnKgUdrB6axX_K5a54vtUIZ9BUDvHYiFvkxapbPzSGqK0Kf3sAi8HfzLxL4" style="float: left; width: 315px; height: 256px;"/>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+     <br/>
+    </p>
+    <p>
+     <br/>
+     The Caltech Library had to make many adjustments when the pandemic began and the campus moved to remote instruction. New problems required new solutions, and in some cases, the Library was presented with the opportunity to pursue new services that had been percolating for some time.
+    </p>
+    <p>
+     One challenge the Library confronted in the fall of 2020 was how to allow faculty to include physical books in their course reserves. If patrons weren’t able to access the library to read the books, how could they be included in the course curricula? Enter controlled digital lending.
+    </p>
+    <p>
+     According to
+     <a href="http://web.archive.org/web/20220209230706/https://controlleddigitallending.org/statement">
+      the Position Statement on Controlled Digital Lending by Libraries
+     </a>
+     —based on research by attorney and law librarian Michelle Wu, who later won an Internet Archive Hero Award for her work—controlled digital lending has three core principles:
+    </p>
+    <ol>
+     <li>
+      A library must own a legal copy of the physical book, by purchase or gift.
+     </li>
+     <li>
+      The library must maintain an "owned to loaned" ratio, simultaneously lending no more copies than it legally owns.
+     </li>
+     <li>
+      The library must use technical measures to ensure that the digital file cannot be copied or redistributed.
+     </li>
+    </ol>
+    <p>
+     When the Digital Library Development (DLD) team, led by Stephen Davison, first considered controlled digital lending, they “found no suitable off-the-shelf system that could provide access to digitized publications in a manner that mimics the loaning of legally purchased materials.” So starting in early 2021, the DLD team began to design and build the Caltech Library’s new digital borrowing system, affectionately known as DIBS.
+    </p>
+    <p>
+     After Davison established the system’s overall concept and goals and liaised with Caltech Library leadership, Research Applications Developer Michael Hucka stepped in to design the core DIBS system architecture and implement the user interfaces, primarily writing the code using Python. The system needed to be easy to use and navigate so that a limited number of users (based on the number of physical copies the Library owns) could locate the course reserve item and place it on loan for a limited duration, such as the three-hour window seen in the image to the left.
+    </p>
+    <p>
+     Of course, the digital borrowing service can only work with items available to borrow. The Library’s Access &amp; Collection Services department worked extensively with faculty to identify the books they wanted to include in the service and then began scanning these items, a crucial step in its functionality. The scanning team included Dan Anguka, Andy Gaston, Kris Jolley, Rebecca Minjarez, Viet Nguyen, Ben Perez, Jason Perez, Bianca Rios, and John Wade.
+    </p>
+    <p>
+     Once the books were scanned, the next challenge was how to make the pages viewable but not downloadable. Digital Technologies Development Librarian Tommy Keswick designed and implemented the workflow that would allow the scanned images to be converted into files that could be read using a web browser-based software program known as Universal Viewer. This conversion involved programming that would facilitate the user being able to zoom and navigate the pages on various devices and that would also prevent the document from being downloaded in the interest of intellectual property protection.
+    </p>
+    <p>
+     Applications Developer Robert Doiel was then tasked with setting up and managing the web server to host the DIBS system and ensuring it was secure. He designed the role and user management system to minimize the risk of exposing patron data along with input from Mike Hucka. This design was possible because Caltech’s Information Management Systems &amp; Services (IMSS) provides a robust and secure single sign-on system called Shibboleth (an academic standard). IMSS's Zailo S. Leite helped to finish the work by integrating the Library's application server with Shibboleth. Because library ethics protect user privacy, patrons with Caltech credentials can borrow digital items for their courses, and just as with a physical loan from the catalog, their private information is protected.
+    </p>
+    <p>
+     With all of these implementations in place, DIBS was launched as an open source system with
+     <a href="http://web.archive.org/web/20220209230706/https://caltechlibrary.github.io/dibs/history.html#origin-story">
+      documentation of its design
+     </a>
+     available at GitHub. Since then, the Digital Library Development team has fielded much interest in DIBS from other universities and libraries seeking to build controlled digital lending programs of their own. The DLD team has presented at the Controlled Digital Lending Implementers monthly forum, the Greater Western Library Alliance, the World Open Library Foundation Conference, and the Coalition for Network Information.
+    </p>
+    <p>
+     Many of the new solutions proposed by the Library in response to the pandemic are here to stay, and the future of DIBS is still in progress. The Library will continue to offer digital borrowing through the fall term and DLD is exploring possibilities in collaboration with the Archives to create a virtual reading room. DIBS also continues to be an adoptable, stand-alone model of what controlled digital lending can achieve.
+    </p>
+    <hr style="border:0;border-bottom: 1px solid #999;width:100%;margin-top:30px;margin-bottom:30px;"/>
+    <a class="post-reply" data-parent="100218" data-thread_id="100218" href="javascript:void(0);" onclick="springSpace.blogs.newReply({this: this});">
+     <i class="fa fa-comment-o fa-flip-horizontal">
+     </i>
+     Add a Comment
+    </a>
+   </div>
+  </div>
+ </div>
+</div>
