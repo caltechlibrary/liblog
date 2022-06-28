@@ -1,0 +1,486 @@
+<div class="s-lib-main s-lib-side-borders" id="s-lg-guide-main" tabindex="-1">
+ <div class="c3-wrapper c3-page-title">
+  <div class="container">
+   <div class="row s-lg-row" id="c3-page-title-row">
+    <div class="col-md-12" id="s-lg-col-99">
+     <div class="s-lg-col-boxes">
+      <h1 id="s-lg-guide-name">
+       3D Printing @ TechLab
+      </h1>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="container c3-landing-hide">
+  <div class="row s-lg-row" id="c3-content-row">
+   <div class="col-md-8" id="s-lg-col-1">
+    <div class="s-lg-col-boxes">
+     <div class="s-lg-box-wrapper-33997576" id="s-lg-box-wrapper-33997576">
+      <div class="s-lib-box-container" id="s-lg-box-28912921-container">
+       <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28912921">
+        <div id="s-lg-box-collapse-28912921">
+         <div class="s-lib-box-content s-lib-floating-box-content">
+          <div class="clearfix" id="s-lg-content-67270013">
+           <figure>
+            <img alt="two technicians working in 3D printing lab" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/techhub-3d-printing-techlab.jpg"/>
+            <figcaption>
+             <h3>
+              <br/>
+              3D Printing @ TechLab
+             </h3>
+             <p>
+              The Caltech Library Techlab provides members of the Caltech community hands-on access to innovative rapid prototyping technologies to support the Institute's research and educational mission.
+             </p>
+             <p>
+              Students, faculty, postdocs, and staff can now
+              <a href="https://libcal.caltech.edu/reserve/Techlab-Orientation/reservations">
+               register for open access to our 3D printing equipment
+              </a>
+              . We provide new user training and materials needed to create prototypes of 3D models. Previous experience with the equipment is not required.
+             </p>
+             <p>
+             </p>
+             <h4>
+              <a href="mailto:techlab@library.caltech.edu">
+               Register for new user training
+              </a>
+             </h4>
+             <p>
+             </p>
+             <figure>
+              <img alt="" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/use-library-tech-printing-scanning.jpg"/>
+              <figcaption>
+               <h3>
+                Slicing Your Model
+               </h3>
+               <p>
+                The general 3D printing workflow starts with a 3D model, exported as an .STL file, which is then put into software (Cura) that slices it into layers and outputs a GCODE file. GCODE is basically a set of instructions/toolpaths for the machines to follow.
+                <br/>
+                <br/>
+                <img alt="3Dmodelto3Dprint.png" data-delta="3" height="70" loading="lazy" src="https://www.library.caltech.edu/sites/default/files/styles/large/public/techlab/3Dmodelto3Dprint_1.png?itok=mxTpLL0P" title="3Dmodelto3Dprint.png" typeof="foaf:Image" width="480"/>
+                <br/>
+                ​Cura is one of many applications (Simplify3D, Slic3r, MatterControl, etc) that slices your STL into layers and converts it to printer-specific GCODE. Cura is a free, open-source software which can be installed and downloaded here:
+                <a href="https://ultimaker.com/software/ultimaker-cura">
+                 https://ultimaker.com/software/ultimaker-cura
+                </a>
+                <br/>
+               </p>
+               <h3>
+                Installing Custom Printer Definitions
+               </h3>
+               <ol>
+                <li>
+                 Download
+                 <strong>
+                  'crafbot.def.json' file
+                 </strong>
+                 here:
+                 <a href="https://bit.ly/techlab-cura-definitions">
+                  https://bit.ly/techlab-cura-definitions
+                 </a>
+                </li>
+                <li>
+                 Add our custom Cura definition file '
+                 <strong>
+                  crafbot.def.json'
+                 </strong>
+                 to Cura's 'definitions' folder:
+                 <ul>
+                  <li>
+                   <strong>
+                    Windows:
+                    <em>
+                     C:\Program Files\Ultimaker Cura 4.9.1\resources\definitions
+                    </em>
+                   </strong>
+                  </li>
+                  <li>
+                   <strong>
+                    Mac:
+                   </strong>
+                   <em>
+                    <strong>
+                     Applications
+                    </strong>
+                    &gt;
+                    <strong>
+                     Ultimaker Cura
+                    </strong>
+                    &gt; right click, '
+                    <strong>
+                     Show Package Contents
+                    </strong>
+                    ' &gt;
+                    <strong>
+                     Contents
+                    </strong>
+                    &gt;
+                    <strong>
+                     Resources
+                    </strong>
+                    &gt;
+                    <strong>
+                     resources
+                    </strong>
+                    &gt;
+                    <strong>
+                     definitions
+                    </strong>
+                   </em>
+                  </li>
+                  <li>
+                   <strong>
+                    Linux:
+                   </strong>
+                   Copy [
+                   <em>
+                    printername
+                   </em>
+                   ].def.json files into
+                   <strong>
+                    <em>
+                     ~/.local/share/cura/4.9.1/definitions
+                    </em>
+                   </strong>
+                   (In Terminal,
+                   <strong>
+                    cp -a [location saved]
+                    <em>
+                     /definitions/. ~/.local/share/cura/4.9.1/definitions
+                    </em>
+                   </strong>
+                   )
+                   <em>
+                    ,
+                   </em>
+                   restart AppImage
+                  </li>
+                 </ul>
+                </li>
+                <li>
+                 Run Cura
+                </li>
+               </ol>
+               <p>
+               </p>
+               <h3>
+                Adding Printers to Cura
+               </h3>
+               <ol>
+                <li>
+                 Go to
+                 <strong>
+                  Settings
+                 </strong>
+                 &gt;
+                 <strong>
+                  Printer
+                 </strong>
+                 &gt;
+                 <strong>
+                  Add a non-networked printer...
+                 </strong>
+                </li>
+                <li>
+                 Scroll down to
+                 <strong>
+                  CraftUnique &gt; CraftBot Plus
+                 </strong>
+                </li>
+                <li>
+                 Add Printer
+                </li>
+               </ol>
+               <p>
+               </p>
+               <h3>
+                Extruder Settings
+               </h3>
+               <ol>
+                <li>
+                 Go to
+                 <strong>
+                  Settings
+                 </strong>
+                 &gt;
+                 <strong>
+                  Printer
+                 </strong>
+                 &gt;
+                 <strong>
+                  Manage Printers
+                 </strong>
+                </li>
+                <li>
+                 Select
+                 <strong>
+                  CraftBot Plus
+                 </strong>
+                 &gt;
+                 <strong>
+                  Machine Settings
+                 </strong>
+                </li>
+                <li>
+                 Go to
+                 <strong>
+                  Extruder
+                 </strong>
+                 tab on the right hand side
+                </li>
+                <li>
+                 Under
+                 <strong>
+                  Nozzle Settings
+                 </strong>
+                 &gt;
+                 <strong>
+                  Compatible material diameter
+                 </strong>
+                 &gt; Set to
+                 <strong>
+                  1.75mm
+                 </strong>
+                 &gt; Close
+                </li>
+               </ol>
+               <p>
+               </p>
+               <h3>
+                Using Cura
+               </h3>
+               <ol>
+                <li>
+                 Load your STL or OBJ file
+                </li>
+                <li>
+                 Manipulate your model as necessary (rotate, scale, etc)
+                 <ul>
+                  <li>
+                   <strong>
+                    NOTE: Our profiles have been preloaded with optimized settings designed to work well for most prints.  Please do not alter them until you familiarize yourself with how our printers operate.
+                   </strong>
+                   <ul>
+                    <li>
+                     Recommended Default Settings:
+                     <ul>
+                      <li>
+                       Layer Height: 0.2mm
+                      </li>
+                      <li>
+                       Wall Thickness: 0.8 mm
+                      </li>
+                      <li>
+                       Infill Percentage: 20%
+                      </li>
+                      <li>
+                       Print Temperature: 210° C
+                      </li>
+                      <li>
+                       Bed Temperature: 60° C
+                      </li>
+                      <li>
+                       Print Speed: 45 mm/s
+                      </li>
+                     </ul>
+                    </li>
+                   </ul>
+                  </li>
+                 </ul>
+                </li>
+                <li>
+                 Click 'Prepare' (bottom right corner)
+                </li>
+                <li>
+                 'Save to File/Save to Removable Drive' (save as GCODE)
+                 <ul>
+                 </ul>
+                </li>
+               </ol>
+               <p>
+                For a more thorough overview, please refer to the in-depth guides located at the Ultimaker Cura website:
+                <a href="https://support.ultimaker.com/hc/en-us/articles/360011838219-Interface-overview-of-Ultimaker-Cura">
+                 https://support.ultimaker.com/hc/en-us/articles/360011838219-Interface-overview-of-Ultimaker-Cura
+                </a>
+               </p>
+              </figcaption>
+             </figure>
+             <ul>
+              <li>
+               <a href="https://library.caltech.edu/techhub/home" title="">
+                TechHub
+               </a>
+              </li>
+              <li>
+               <a href="https://library.caltech.edu/techhub/print" title="">
+                3D Printing
+               </a>
+              </li>
+              <li>
+               <a href="https://library.caltech.edu/techhub/cura" title="">
+                Cura – Slice Your Model
+               </a>
+              </li>
+              <li>
+               <a href="https://library.caltech.edu/techhub/documentation" title="">
+                Documentation &amp; Resources
+               </a>
+              </li>
+              <li>
+               <a href="https://library.caltech.edu/techhub/contact" title="">
+                FAQs &amp; Contact Form
+               </a>
+              </li>
+             </ul>
+             <footer>
+              <nav aria-label="breadcrumb" id="s-lib-bc">
+              </nav>
+             </footer>
+            </figcaption>
+           </figure>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4" id="s-lg-col-2">
+    <div class="s-lg-col-boxes">
+     <div id="c3-sidenav">
+      <ul class="list-unstyled">
+       <li class="">
+        <a class="" href="https://library.caltech.edu/techhub/home" title="">
+         <span>
+          TechHub
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/blog/Welcome-to-the-TechHub" target="_blank" title="">
+         <span>
+          Read More About TechHub
+         </span>
+         <i aria-hidden="true" class="fa fa-fw fa-external-link" title="This link opens in a new window">
+         </i>
+        </a>
+       </li>
+       <li class="active">
+        <a class="active" href="https://library.caltech.edu/techhub/print" title="">
+         <span>
+          3D Printing @ TechLab
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/techhub/contact" title="">
+         <span>
+          TechLab FAQs
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/techhub/documentation" title="">
+         <span>
+          TechLab Resources
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/learn/partners" target="_blank" title="">
+         <span>
+          Vroman's @ Caltech Library
+         </span>
+         <i aria-hidden="true" class="fa fa-fw fa-external-link" title="This link opens in a new window">
+         </i>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/archives/exhibits/gone" target="_blank" title="">
+         <span>
+          Gone But Not Forgotten
+         </span>
+         <i aria-hidden="true" class="fa fa-fw fa-external-link" title="This link opens in a new window">
+         </i>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="container c3-introduction c3-content-hide hidden">
+  <div class="row s-lg-row" id="c3-introduction-row">
+   <div class="col-md-6 c3-description" id="s-lg-col-21">
+    <div class="s-lg-col-boxes">
+    </div>
+   </div>
+   <div class="col-md-5 col-md-offset-1 c3-quicklinks" id="s-lg-col-22">
+    <div class="s-lg-col-boxes">
+     <h2>
+      Quick Links
+     </h2>
+     <div class="panel panel-primary c3-admin-show" style="display:none">
+      <div class="panel-heading">
+       <h3 class="panel-title">
+        Quick Links
+       </h3>
+      </div>
+      <div class="panel-body">
+       Add a box here in Column 22 with Rich Text / HTML content containing a bulleted list of Quick Links.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="c3-cards-wrapper c3-content-hide hidden">
+  <div class="container">
+   <div class="row s-lg-row equalheights" id="c3-cards-row-1">
+    <div class="col-md-4" id="s-lg-col-31">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-32">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-33">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+   <div class="row s-lg-row equalheights" id="c3-cards-row-2">
+    <div class="col-md-4" id="s-lg-col-34">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-35">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-36">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+   <div class="row s-lg-row equalheights" id="c3-cards-row-3">
+    <div class="col-md-4" id="s-lg-col-37">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-38">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-39">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
