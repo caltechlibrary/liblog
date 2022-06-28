@@ -38,14 +38,14 @@
         "slug_id": 2064334,
         "status": 2,
         "status_label": "Private",
-        "thumbnail_url": "https://library.caltech.edu/ld.php?screenshot=baedhhe.png&cb=1656318838",
+        "thumbnail_url": "https://library.caltech.edu/ld.php?screenshot=baedhhe.png&cb=1656405309",
         "type_id": 4,
         "type_label": "Topic Guide",
         "updated": "2022-04-21 16:50:54",
         "url": "https://library.caltech.edu/c.php?g=1043774"
     },
     {
-        "count_hit": 108,
+        "count_hit": 110,
         "created": "2008-09-30 20:41:30",
         "description": "Information about EndNote at Caltech.",
         "friendly_url": "https://library.caltech.edu/endnote",
@@ -130,7 +130,7 @@
         "url": "https://library.caltech.edu/c.php?g=512622"
     },
     {
-        "count_hit": 703,
+        "count_hit": 714,
         "created": "2008-10-27 18:04:36",
         "description": "Welcome to Geological & Planetary Sciences Library services at Caltech!",
         "friendly_url": "https://library.caltech.edu/geology",
@@ -475,7 +475,7 @@
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
-        "count_hit": 294,
+        "count_hit": 295,
         "created": "2009-07-21 18:01:19",
         "description": "Databases, Information Resources, National Offices.",
         "friendly_url": "https://library.caltech.edu/patents",
@@ -680,7 +680,7 @@
         "url": "https://library.caltech.edu/c.php?g=512660"
     },
     {
-        "count_hit": 193,
+        "count_hit": 195,
         "created": "2009-11-24 00:42:14",
         "description": "A guide to some basic resources for translation and transliteration services.",
         "friendly_url": "https://library.caltech.edu/translations",
@@ -1485,7 +1485,7 @@
         "url": "https://library.caltech.edu/c.php?g=776077"
     },
     {
-        "count_hit": 181,
+        "count_hit": 186,
         "created": "2019-04-30 23:23:56",
         "description": "Research and library resources for students taking ESL/Wr 107, Wr 109 and SEC 111 at Caltech.",
         "friendly_url": "https://library.caltech.edu/academicwritinggrad",
@@ -1630,7 +1630,7 @@
         "url": "https://library.caltech.edu/c.php?g=933550"
     },
     {
-        "count_hit": 209,
+        "count_hit": 213,
         "created": "2020-04-01 16:26:19",
         "description": "A short guide to resources for students taking SEC 11 at Caltech.",
         "friendly_url": "https://library.caltech.edu/SEC11",
@@ -1735,7 +1735,7 @@
         "url": "https://library.caltech.edu/c.php?g=1023304"
     },
     {
-        "count_hit": 65,
+        "count_hit": 66,
         "created": "2021-03-15 20:36:11",
         "description": "This Guide is a companion site to the \"Approaching the Diversity Statement\" resource by the Hixon Writing Center.",
         "friendly_url": "https://library.caltech.edu/diversitystatements",
@@ -1780,7 +1780,7 @@
         "url": "https://library.caltech.edu/c.php?g=1131717"
     },
     {
-        "count_hit": 176,
+        "count_hit": 180,
         "created": "2022-04-08 18:33:54",
         "description": "Use our tools and guides to write, cite, patent, and copyright your papers, theses, and other works.",
         "friendly_url": "https://library.caltech.edu/write",
@@ -1965,7 +1965,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231491"
     },
     {
-        "count_hit": 132,
+        "count_hit": 138,
         "created": "2008-10-02 22:58:06",
         "description": "Resources for Applied and Computational Mathematics research at Caltech",
         "friendly_url": "https://library.caltech.edu/ACM",
@@ -2130,7 +2130,7 @@
         "url": "https://library.caltech.edu/c.php?g=512626"
     },
     {
-        "count_hit": 254,
+        "count_hit": 266,
         "created": "2008-10-02 22:59:51",
         "description": "",
         "friendly_url": "https://library.caltech.edu/mechanical",
@@ -2375,7 +2375,7 @@
         "url": "https://library.caltech.edu/c.php?g=512627"
     },
     {
-        "count_hit": 77,
+        "count_hit": 79,
         "created": "2008-10-24 22:05:32",
         "description": "",
         "friendly_url": "https://library.caltech.edu/EE",
@@ -2440,7 +2440,7 @@
         "url": "https://library.caltech.edu/c.php?g=512629"
     },
     {
-        "count_hit": 80,
+        "count_hit": 83,
         "created": "2009-04-27 20:04:17",
         "description": "",
         "friendly_url": "https://library.caltech.edu/CDS",
@@ -2525,7 +2525,7 @@
         "url": "https://library.caltech.edu/c.php?g=512641"
     },
     {
-        "count_hit": 94,
+        "count_hit": 97,
         "created": "2009-04-27 23:42:42",
         "description": "",
         "friendly_url": "https://library.caltech.edu/environmental",
@@ -2610,7 +2610,7 @@
         "url": "https://library.caltech.edu/c.php?g=512642"
     },
     {
-        "count_hit": 67,
+        "count_hit": 68,
         "created": "2009-06-03 22:01:52",
         "description": "",
         "friendly_url": "https://library.caltech.edu/appliedphysics",
@@ -2675,7 +2675,7 @@
         "url": "https://library.caltech.edu/c.php?g=512655"
     },
     {
-        "count_hit": 552,
+        "count_hit": 553,
         "created": "2010-08-06 16:59:50",
         "description": "",
         "friendly_url": "https://library.caltech.edu/publisherpolicies",
@@ -2720,7 +2720,7 @@
         "url": "https://library.caltech.edu/c.php?g=512672"
     },
     {
-        "count_hit": 519,
+        "count_hit": 523,
         "created": "2013-11-20 20:25:25",
         "description": "Frequently asked questions about the California Institute of Technology's Open Access policy.",
         "friendly_url": "https://library.caltech.edu/CaltechOAPolicyFAQ",
@@ -2825,7 +2825,7 @@
         "url": "https://library.caltech.edu/c.php?g=512710"
     },
     {
-        "count_hit": 24,
+        "count_hit": 25,
         "created": "2020-05-13 17:18:48",
         "description": "",
         "friendly_url": "https://library.caltech.edu/ACM-OPEN",
@@ -2870,7 +2870,7 @@
         "url": "https://library.caltech.edu/c.php?g=1039914"
     },
     {
-        "count_hit": 15,
+        "count_hit": 18,
         "created": "2022-05-18 22:24:21",
         "description": "",
         "friendly_url": "https://library.caltech.edu/eas",
@@ -2915,7 +2915,7 @@
         "url": "https://library.caltech.edu/c.php?g=1241285"
     },
     {
-        "count_hit": 265,
+        "count_hit": 268,
         "created": "2009-02-03 00:06:36",
         "description": "",
         "friendly_url": "https://library.caltech.edu/pma",
@@ -3020,7 +3020,7 @@
         "url": "https://library.caltech.edu/c.php?g=512637"
     },
     {
-        "count_hit": 578,
+        "count_hit": 584,
         "created": "2009-05-05 18:13:49",
         "description": "",
         "friendly_url": "https://library.caltech.edu/ebooks",
@@ -3165,7 +3165,7 @@
         "url": "https://library.caltech.edu/c.php?g=512644"
     },
     {
-        "count_hit": 6567,
+        "count_hit": 6598,
         "created": "2009-11-03 23:02:57",
         "description": "NIH, Publishing Issues, Books, Databases",
         "friendly_url": "",
@@ -3230,7 +3230,7 @@
         "url": "https://library.caltech.edu/c.php?g=512665"
     },
     {
-        "count_hit": 4694,
+        "count_hit": 4872,
         "created": "2022-01-28 18:07:54",
         "description": "",
         "friendly_url": "https://library.caltech.edu/library/home",
@@ -3275,7 +3275,7 @@
         "url": "https://library.caltech.edu/c.php?g=1212590"
     },
     {
-        "count_hit": 8,
+        "count_hit": 9,
         "created": "2022-05-22 20:34:17",
         "description": "",
         "friendly_url": "",
@@ -3320,7 +3320,7 @@
         "url": "https://library.caltech.edu/c.php?g=1241875"
     },
     {
-        "count_hit": 11,
+        "count_hit": 12,
         "created": "2022-04-18 21:10:34",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/events",
@@ -3365,7 +3365,7 @@
         "url": "https://library.caltech.edu/c.php?g=1233600"
     },
     {
-        "count_hit": 210,
+        "count_hit": 215,
         "created": "2022-06-08 22:17:18",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/access",
@@ -3510,7 +3510,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245959"
     },
     {
-        "count_hit": 79,
+        "count_hit": 83,
         "created": "2019-01-04 22:35:18",
         "description": "A short guide to resources for students taking BE201 at Caltech.",
         "friendly_url": "https://library.caltech.edu/BE201",
@@ -3615,7 +3615,7 @@
         "url": "https://library.caltech.edu/c.php?g=902433"
     },
     {
-        "count_hit": 84,
+        "count_hit": 89,
         "created": "2021-05-12 20:34:31",
         "description": "Library resources for students taking Bi 1 at Caltech in Spring 2021",
         "friendly_url": "https://library.caltech.edu/Bi1",
@@ -3740,7 +3740,7 @@
         "url": "https://library.caltech.edu/c.php?g=1147328"
     },
     {
-        "count_hit": 38,
+        "count_hit": 41,
         "created": "2021-12-21 18:42:20",
         "description": "",
         "friendly_url": "https://library.caltech.edu/singlepagetest",
@@ -3825,7 +3825,7 @@
         "url": "https://library.caltech.edu/c.php?g=1204656"
     },
     {
-        "count_hit": 1366,
+        "count_hit": 1423,
         "created": "2022-03-30 23:24:08",
         "description": "Access collections and services tailored to your subject interests at each of our locations with your Caltech ID.",
         "friendly_url": "https://library.caltech.edu/locations",
@@ -4050,7 +4050,7 @@
         "url": "https://library.caltech.edu/c.php?g=1229395"
     },
     {
-        "count_hit": 39,
+        "count_hit": 40,
         "created": "2022-04-07 21:17:45",
         "description": "A long paragraph can fit here describing this Guide and can be used for a Landing Page template. No HTML, including bold or italic text is allowed, and neither are line breaks. This field has been tested with over 1,000 characters.",
         "friendly_url": "https://library.caltech.edu/visitors",
@@ -4095,7 +4095,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231288"
     },
     {
-        "count_hit": 59,
+        "count_hit": 60,
         "created": "2022-04-07 22:52:01",
         "description": "Library News /news",
         "friendly_url": "https://library.caltech.edu/news",
@@ -4140,7 +4140,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231314"
     },
     {
-        "count_hit": 105,
+        "count_hit": 115,
         "created": "2022-04-18 19:54:47",
         "description": "Description",
         "friendly_url": "https://library.caltech.edu/events",
@@ -4325,7 +4325,7 @@
         "url": "https://library.caltech.edu/c.php?g=1233570"
     },
     {
-        "count_hit": 81,
+        "count_hit": 90,
         "created": "2009-03-18 16:26:15",
         "description": "Warren Brown",
         "friendly_url": "https://library.caltech.edu/middleages",
@@ -4530,7 +4530,7 @@
         "url": "https://library.caltech.edu/c.php?g=512639"
     },
     {
-        "count_hit": 54,
+        "count_hit": 60,
         "created": "2011-01-03 00:29:16",
         "description": "Winter 2011",
         "friendly_url": "https://library.caltech.edu/highandlatemiddleages",
@@ -4860,7 +4860,7 @@
         "url": "https://library.caltech.edu/c.php?g=512643"
     },
     {
-        "count_hit": 1364,
+        "count_hit": 1386,
         "created": "2009-07-30 23:28:58",
         "description": "Library information and resources for the CCE Division at Caltech. Resources for this guide were originally compiled and maintained by Dana Roth.",
         "friendly_url": "https://library.caltech.edu/chemistry",
@@ -5405,7 +5405,7 @@
         "url": "https://library.caltech.edu/c.php?g=512661"
     },
     {
-        "count_hit": 77,
+        "count_hit": 78,
         "created": "2013-04-08 22:25:39",
         "description": "Dr. Susanne Hall",
         "friendly_url": "https://library.caltech.edu/En84",
@@ -5535,7 +5535,7 @@
         "url": "https://library.caltech.edu/c.php?g=512704"
     },
     {
-        "count_hit": 301,
+        "count_hit": 304,
         "created": "2014-05-02 21:12:55",
         "description": "Descriptions and resources for workshops offered by the Caltech Library.  To register for a class, click on the class name.  All classes held online via Zoom.",
         "friendly_url": "https://library.caltech.edu/instruction",
@@ -5700,7 +5700,7 @@
         "url": "https://library.caltech.edu/c.php?g=512715"
     },
     {
-        "count_hit": 264,
+        "count_hit": 275,
         "created": "2014-09-22 21:18:14",
         "description": "",
         "friendly_url": "https://library.caltech.edu/teaching",
@@ -5945,7 +5945,7 @@
         "url": "https://library.caltech.edu/c.php?g=512724"
     },
     {
-        "count_hit": 163,
+        "count_hit": 165,
         "created": "2016-08-05 19:27:10",
         "description": "A brief guide to resources offered by NCBI for researchers at Caltech.",
         "friendly_url": "https://library.caltech.edu/NCBI",
@@ -6030,7 +6030,7 @@
         "url": "https://library.caltech.edu/c.php?g=540605"
     },
     {
-        "count_hit": 537,
+        "count_hit": 552,
         "created": "2022-04-08 15:38:47",
         "description": "Expert assistance with processes for open access publishing, grant reporting mandates, authoring platforms, copyright and licensing, scholarly identity and impact, and archiving publications.",
         "friendly_url": "https://library.caltech.edu/publish",
@@ -6375,7 +6375,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231408"
     },
     {
-        "count_hit": 248,
+        "count_hit": 257,
         "created": "2022-04-08 20:33:14",
         "description": "Work with a subject specialist. Attend a workshop on scientific authoring, thesis and citation guidance, finding resources, and software or data fundamentals.",
         "friendly_url": "https://library.caltech.edu/learn",
@@ -6536,11 +6536,11 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-21 23:19:53",
+        "updated": "2022-06-27 16:54:41",
         "url": "https://library.caltech.edu/c.php?g=1231526"
     },
     {
-        "count_hit": 119,
+        "count_hit": 125,
         "created": "2009-09-28 23:31:29",
         "description": "",
         "friendly_url": "https://library.caltech.edu/govtinfo",
@@ -6685,7 +6685,7 @@
         "url": "https://library.caltech.edu/c.php?g=512664"
     },
     {
-        "count_hit": 19,
+        "count_hit": 20,
         "created": "2014-09-15 18:19:35",
         "description": "",
         "friendly_url": "https://library.caltech.edu/mede",
@@ -6730,7 +6730,7 @@
         "url": "https://library.caltech.edu/c.php?g=512723"
     },
     {
-        "count_hit": 67,
+        "count_hit": 69,
         "created": "2009-12-02 22:31:09",
         "description": "Abbreviations: Historical Beilstein/Gmelin, CAS, CLICAPS (ETHZ);  Pricing: Journal cost-effectiveness 2011; CrossRef; Author ID; Journal Rank",
         "friendly_url": "",
@@ -6775,7 +6775,7 @@
         "url": "https://library.caltech.edu/c.php?g=512668"
     },
     {
-        "count_hit": 633,
+        "count_hit": 644,
         "created": "2022-04-08 00:16:15",
         "description": "Find your Library account and procedures for borrowing and requesting Library items, including documents, tech, and equipment.",
         "friendly_url": "https://library.caltech.edu/borrow",
@@ -6960,7 +6960,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231325"
     },
     {
-        "count_hit": 1005,
+        "count_hit": 1036,
         "created": "2022-04-07 20:38:55",
         "description": "Learn about how the Library works and who works at the Library. This section also includes Library policies, our strategic plan and mission statement, and jobs and opportunities.",
         "friendly_url": "https://library.caltech.edu/about",
@@ -7385,7 +7385,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
-        "count_hit": 838,
+        "count_hit": 848,
         "created": "2017-06-22 17:25:18",
         "description": "Writing a paper is hard! It's a little bit easier with citation management.",
         "friendly_url": "https://library.caltech.edu/citation-management",
@@ -7590,7 +7590,7 @@
         "url": "https://library.caltech.edu/c.php?g=688078"
     },
     {
-        "count_hit": 196,
+        "count_hit": 203,
         "created": "2018-07-06 21:17:53",
         "description": "Dimensions is a database of publications, grants, patents, and clinical trials.",
         "friendly_url": "https://library.caltech.edu/dimensions",
@@ -7755,7 +7755,7 @@
         "url": "https://library.caltech.edu/c.php?g=849976"
     },
     {
-        "count_hit": 958,
+        "count_hit": 983,
         "created": "2022-04-07 22:18:21",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/home",
@@ -7800,7 +7800,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231306"
     },
     {
-        "count_hit": 647,
+        "count_hit": 692,
         "created": "2022-05-25 00:12:43",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/exhibits/digital",
@@ -8705,7 +8705,7 @@
         "url": "https://library.caltech.edu/c.php?g=1242603"
     },
     {
-        "count_hit": 144,
+        "count_hit": 152,
         "created": "2022-06-09 04:13:15",
         "description": "",
         "friendly_url": "",
@@ -8890,7 +8890,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245983"
     },
     {
-        "count_hit": 530,
+        "count_hit": 543,
         "created": "2022-04-08 16:02:04",
         "description": "Get your work done using technology at Sherman Fairchild Library: printers, scanners, computers, software, VR workstations, and a multimedia room.",
         "friendly_url": "https://library.caltech.edu/tech",
@@ -9215,9 +9215,9 @@
         "url": "https://library.caltech.edu/c.php?g=1231422"
     },
     {
-        "count_hit": 346,
+        "count_hit": 355,
         "created": "2022-04-08 17:45:10",
-        "description": "Located on the first floor of Caltech Hall, the TechHub is a productive and creative space, home to our TechLab for 3D printing and our technology lending program, as well as an Archives exhibition space and our retail partnership with Vroman\u2019s Bookstore.",
+        "description": "Located on the first floor of Caltech Hall, the TechHub is a productive and creative space\u2014home to our TechLab for 3D printing, the technology lending program, an Archives exhibition space, and our retail partnership with Vroman\u2019s Bookstore.",
         "friendly_url": "https://library.caltech.edu/techhub",
         "group_id": 26856,
         "id": 1231470,
@@ -9237,7 +9237,7 @@
                 "name": "TechHub",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "6",
+                "position": "1",
                 "redirect_url": "",
                 "slug_id": "2602673",
                 "source_id": "0",
@@ -9254,36 +9254,16 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/techhub/print",
                 "id": "9123572",
-                "name": "3D Printing",
+                "name": "3D Printing @ TechLab",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "7",
+                "position": "3",
                 "redirect_url": "",
                 "slug_id": "2602669",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-06-14 04:30:44",
+                "updated": "2022-06-28 02:46:40",
                 "url": "https://library.caltech.edu/c.php?g=1231470&p=9123572"
-            },
-            {
-                "column_layout": "{\"1\":{\"span\":12}}",
-                "created": "2022-06-13 21:54:03",
-                "description": "",
-                "enable_display": "1",
-                "enable_newwin": "0",
-                "er_course_id": "0",
-                "friendly_url": "https://library.caltech.edu/techhub/cura",
-                "id": "9123573",
-                "name": "Cura \u2013 Slice Your Model",
-                "num_cols": "1",
-                "parent_id": "0",
-                "position": "8",
-                "redirect_url": "",
-                "slug_id": "2602670",
-                "source_id": "0",
-                "type_id": "1",
-                "updated": "2022-06-14 04:40:29",
-                "url": "https://library.caltech.edu/c.php?g=1231470&p=9123573"
             },
             {
                 "column_layout": "{\"1\":{\"span\":12}}",
@@ -9294,15 +9274,15 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/techhub/documentation",
                 "id": "9123574",
-                "name": "Documentation & Resources",
+                "name": "TechLab Resources",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "9",
+                "position": "5",
                 "redirect_url": "",
                 "slug_id": "2602671",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-06-13 21:54:19",
+                "updated": "2022-06-28 03:14:16",
                 "url": "https://library.caltech.edu/c.php?g=1231470&p=9123574"
             },
             {
@@ -9314,16 +9294,76 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/techhub/contact",
                 "id": "9123577",
-                "name": "FAQs & Contact Form",
+                "name": "TechLab FAQs",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "10",
+                "position": "4",
                 "redirect_url": "",
                 "slug_id": "2602672",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-06-13 21:54:51",
+                "updated": "2022-06-28 03:13:26",
                 "url": "https://library.caltech.edu/c.php?g=1231470&p=9123577"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-06-28 03:10:37",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "1",
+                "er_course_id": "0",
+                "friendly_url": null,
+                "id": "9144900",
+                "name": "Vroman's @ Caltech Library",
+                "num_cols": "1",
+                "parent_id": "0",
+                "position": "6",
+                "redirect_url": "https://library.caltech.edu/learn/partners",
+                "slug_id": "0",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-06-28 03:11:14",
+                "url": "https://library.caltech.edu/c.php?g=1231470&p=9144900"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-06-28 03:11:48",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "1",
+                "er_course_id": "0",
+                "friendly_url": null,
+                "id": "9144902",
+                "name": "Gone But Not Forgotten",
+                "num_cols": "1",
+                "parent_id": "0",
+                "position": "7",
+                "redirect_url": "https://library.caltech.edu/archives/exhibits/gone",
+                "slug_id": "0",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-06-28 03:12:12",
+                "url": "https://library.caltech.edu/c.php?g=1231470&p=9144902"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-06-28 03:22:49",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "1",
+                "er_course_id": "0",
+                "friendly_url": null,
+                "id": "9144903",
+                "name": "Read More About TechHub",
+                "num_cols": "1",
+                "parent_id": "0",
+                "position": "2",
+                "redirect_url": "https://library.caltech.edu/blog/Welcome-to-the-TechHub",
+                "slug_id": "0",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-06-28 03:23:26",
+                "url": "https://library.caltech.edu/c.php?g=1231470&p=9144903"
             }
         ],
         "published": "2022-06-15 17:19:34",
@@ -9336,11 +9376,11 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-15 17:19:34",
+        "updated": "2022-06-28 03:46:42",
         "url": "https://library.caltech.edu/c.php?g=1231470"
     },
     {
-        "count_hit": 227,
+        "count_hit": 231,
         "created": "2022-02-11 17:59:54",
         "description": "",
         "friendly_url": "https://library.caltech.edu/bookdisplay",
@@ -9461,11 +9501,11 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-06-25 20:37:50",
+        "updated": "2022-06-28 00:31:31",
         "url": "https://library.caltech.edu/c.php?g=1216793"
     },
     {
-        "count_hit": 42,
+        "count_hit": 48,
         "created": "2009-12-17 22:48:02",
         "description": "Warren Brown",
         "friendly_url": "https://library.caltech.edu/medievalknighthood",
@@ -9630,7 +9670,7 @@
         "url": "https://library.caltech.edu/c.php?g=512669"
     },
     {
-        "count_hit": 42,
+        "count_hit": 48,
         "created": "2010-03-30 15:29:00",
         "description": "Warren Brown",
         "friendly_url": "https://library.caltech.edu/H112",
@@ -9795,7 +9835,7 @@
         "url": "https://library.caltech.edu/c.php?g=512671"
     },
     {
-        "count_hit": 35,
+        "count_hit": 40,
         "created": "2010-09-27 22:43:49",
         "description": "Warren Brown",
         "friendly_url": "https://library.caltech.edu/earlymiddleages",
@@ -9920,7 +9960,7 @@
         "url": "https://library.caltech.edu/c.php?g=512675"
     },
     {
-        "count_hit": 250,
+        "count_hit": 258,
         "created": "2008-10-02 21:24:03",
         "description": "Resources at the Caltech Library for students taking E/SEC 102 and E/SEC 103.",
         "friendly_url": "https://library.caltech.edu/business",
@@ -10105,7 +10145,7 @@
         "url": "https://library.caltech.edu/c.php?g=512625"
     },
     {
-        "count_hit": 56,
+        "count_hit": 57,
         "created": "2009-11-13 19:56:59",
         "description": "A listing of both conference papers/reports/preprints/abstracts publications and their indexing/abstracting databases.",
         "friendly_url": "",
@@ -10150,7 +10190,7 @@
         "url": "https://library.caltech.edu/c.php?g=512666"
     },
     {
-        "count_hit": 625,
+        "count_hit": 632,
         "created": "2013-03-07 20:13:56",
         "description": "Getting started with SciFinder",
         "friendly_url": "https://library.caltech.edu/scifinder",
@@ -10295,7 +10335,7 @@
         "url": "https://library.caltech.edu/c.php?g=512696"
     },
     {
-        "count_hit": 251,
+        "count_hit": 253,
         "created": "2013-05-16 20:27:20",
         "description": "General information for the Caltech comunity about the availability of LabArchives Electronic Lab Notebook on campus.",
         "friendly_url": "https://library.caltech.edu/labarchives",
@@ -10360,7 +10400,7 @@
         "url": "https://library.caltech.edu/c.php?g=512699"
     },
     {
-        "count_hit": 696,
+        "count_hit": 703,
         "created": "2013-11-11 21:49:38",
         "description": "Research and library resources for students taking Wr 1 and Wr 2 at Caltech.",
         "friendly_url": "https://library.caltech.edu/introacademicwriting",
@@ -10525,7 +10565,7 @@
         "url": "https://library.caltech.edu/c.php?g=512709"
     },
     {
-        "count_hit": 841,
+        "count_hit": 846,
         "created": "2015-11-09 16:14:47",
         "description": "",
         "friendly_url": "https://library.caltech.edu/latex",
@@ -10710,7 +10750,7 @@
         "url": "https://library.caltech.edu/c.php?g=512739"
     },
     {
-        "count_hit": 52,
+        "count_hit": 58,
         "created": "2015-12-07 18:04:14",
         "description": "",
         "friendly_url": "",
@@ -10855,7 +10895,7 @@
         "url": "https://library.caltech.edu/c.php?g=512743"
     },
     {
-        "count_hit": 1887,
+        "count_hit": 1897,
         "created": "2020-05-29 19:44:31",
         "description": "New to Caltech? Learn about all the library resources, services, and staff available to you.",
         "friendly_url": "https://library.caltech.edu/welcome",
@@ -11100,7 +11140,7 @@
         "url": "https://library.caltech.edu/c.php?g=1045055"
     },
     {
-        "count_hit": 300,
+        "count_hit": 312,
         "created": "2022-04-08 18:17:03",
         "description": "Save time and get a jump start on your research. Consult our library guides for lists of resources and guidance tailored to your interests.",
         "friendly_url": "https://library.caltech.edu/guides",
@@ -11265,7 +11305,7 @@
         "url": "https://library.caltech.edu/c.php?g=1231481"
     },
     {
-        "count_hit": 221,
+        "count_hit": 232,
         "created": "2008-10-02 20:56:50",
         "description": "Resources for Aeronautics research at Caltech",
         "friendly_url": "https://library.caltech.edu/aeronautics",
@@ -11510,7 +11550,7 @@
         "url": "https://library.caltech.edu/c.php?g=512624"
     },
     {
-        "count_hit": 36,
+        "count_hit": 38,
         "created": "2009-05-15 18:23:15",
         "description": "",
         "friendly_url": "https://library.caltech.edu/CNS",
@@ -11575,7 +11615,7 @@
         "url": "https://library.caltech.edu/c.php?g=512647"
     },
     {
-        "count_hit": 30,
+        "count_hit": 31,
         "created": "2011-03-29 21:51:47",
         "description": "",
         "friendly_url": "https://library.caltech.edu/CMS",
@@ -11680,7 +11720,7 @@
         "url": "https://library.caltech.edu/c.php?g=512688"
     },
     {
-        "count_hit": 9,
+        "count_hit": 10,
         "created": "2017-04-10 20:49:26",
         "description": "",
         "friendly_url": "https://library.caltech.edu/ae201b",
@@ -11725,7 +11765,7 @@
         "url": "https://library.caltech.edu/c.php?g=653170"
     },
     {
-        "count_hit": 357,
+        "count_hit": 360,
         "created": "2011-10-06 21:28:24",
         "description": "",
         "friendly_url": "https://library.caltech.edu/bookmarklet",
@@ -11790,7 +11830,7 @@
         "url": "https://library.caltech.edu/c.php?g=512691"
     },
     {
-        "count_hit": 248,
+        "count_hit": 255,
         "created": "2011-02-25 19:13:38",
         "description": "Repository of research papers authored by faculty and other researchers at Caltech. This guide answers many of the basic questions users may have.",
         "friendly_url": "https://library.caltech.edu/caltechauthors",
@@ -11935,7 +11975,7 @@
         "url": "https://library.caltech.edu/c.php?g=512684"
     },
     {
-        "count_hit": 166,
+        "count_hit": 180,
         "created": "2022-03-22 20:33:41",
         "description": "Support the Caltech Library: The Caltech Library digital bookplates recognize the support from endowments and gifts in building collections and supporting all aspects of the Library's work and mission.",
         "friendly_url": "https://library.caltech.edu/digital-bookplates",
@@ -12240,7 +12280,7 @@
         "url": "https://library.caltech.edu/c.php?g=1227195"
     },
     {
-        "count_hit": 26,
+        "count_hit": 27,
         "created": "2009-08-20 22:26:05",
         "description": "Journal lists for major A&I services, publishers, etc.  Specialized indexes.",
         "friendly_url": "",
@@ -12285,7 +12325,7 @@
         "url": "https://library.caltech.edu/c.php?g=512662"
     },
     {
-        "count_hit": 44,
+        "count_hit": 45,
         "created": "2011-11-16 19:44:59",
         "description": "Quantitative indicators of research output, including techniques for determining an author's h-index",
         "friendly_url": "",
@@ -12330,7 +12370,7 @@
         "url": "https://library.caltech.edu/c.php?g=512692"
     },
     {
-        "count_hit": 27,
+        "count_hit": 28,
         "created": "2012-09-07 19:15:12",
         "description": "",
         "friendly_url": "",
@@ -12375,7 +12415,7 @@
         "url": "https://library.caltech.edu/c.php?g=512694"
     },
     {
-        "count_hit": 414,
+        "count_hit": 421,
         "created": "2022-04-06 16:23:31",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/about",
@@ -12540,7 +12580,7 @@
         "url": "https://library.caltech.edu/c.php?g=1230809"
     },
     {
-        "count_hit": 329,
+        "count_hit": 349,
         "created": "2022-06-08 17:40:47",
         "description": "255 character limit",
         "friendly_url": "",
@@ -12965,7 +13005,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245803"
     },
     {
-        "count_hit": 82,
+        "count_hit": 86,
         "created": "2022-06-09 04:11:07",
         "description": "",
         "friendly_url": "",
@@ -13070,7 +13110,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245981"
     },
     {
-        "count_hit": 126,
+        "count_hit": 134,
         "created": "2022-06-09 04:13:54",
         "description": "",
         "friendly_url": "",
@@ -13235,7 +13275,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245984"
     },
     {
-        "count_hit": 8,
+        "count_hit": 9,
         "created": "2022-06-09 04:14:29",
         "description": "",
         "friendly_url": "",
@@ -13280,7 +13320,7 @@
         "url": "https://library.caltech.edu/c.php?g=1245985"
     },
     {
-        "count_hit": 90,
+        "count_hit": 95,
         "created": "2022-06-09 23:41:25",
         "description": "",
         "friendly_url": "",
@@ -13385,7 +13425,7 @@
         "url": "https://library.caltech.edu/c.php?g=1246241"
     },
     {
-        "count_hit": 301,
+        "count_hit": 321,
         "created": "2022-06-09 23:42:01",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/exhibits/campus",
@@ -13770,7 +13810,7 @@
         "url": "https://library.caltech.edu/c.php?g=1246242"
     },
     {
-        "count_hit": 268,
+        "count_hit": 276,
         "created": "2009-02-24 23:23:39",
         "description": "Library information and resources for the BBE Division at Caltech.",
         "friendly_url": "https://library.caltech.edu/biology",
@@ -13995,7 +14035,7 @@
         "url": "https://library.caltech.edu/c.php?g=512638"
     },
     {
-        "count_hit": 53,
+        "count_hit": 60,
         "created": "2022-04-06 16:09:49",
         "description": "Discover BBE journals, ebooks, databases, and more. Contact your subject librarian for further assistance.",
         "friendly_url": "",
@@ -14160,7 +14200,7 @@
         "url": "https://library.caltech.edu/c.php?g=1230804"
     },
     {
-        "count_hit": 211,
+        "count_hit": 217,
         "created": "2022-02-20 19:19:21",
         "description": "",
         "friendly_url": "https://library.caltech.edu/webstandards",
@@ -14305,7 +14345,7 @@
         "url": "https://library.caltech.edu/c.php?g=1219063"
     },
     {
-        "count_hit": 49,
+        "count_hit": 56,
         "created": "2011-03-23 19:10:42",
         "description": "Winter 2012",
         "friendly_url": "https://library.caltech.edu/crusades",
@@ -14490,7 +14530,7 @@
         "url": "https://library.caltech.edu/c.php?g=512686"
     },
     {
-        "count_hit": 361,
+        "count_hit": 367,
         "created": "2013-07-11 21:06:05",
         "description": "",
         "friendly_url": "https://library.caltech.edu/linde",
@@ -14655,7 +14695,7 @@
         "url": "https://library.caltech.edu/c.php?g=512702"
     },
     {
-        "count_hit": 238,
+        "count_hit": 244,
         "created": "2016-02-29 19:48:04",
         "description": "Learn about HSS-specific library resources, including librarians, collections, archives, databases, research and data support, and more.",
         "friendly_url": "https://library.caltech.edu/hss",
@@ -14960,7 +15000,7 @@
         "url": "https://library.caltech.edu/c.php?g=512746"
     },
     {
-        "count_hit": 48,
+        "count_hit": 54,
         "created": "2019-10-16 20:35:24",
         "description": "A short guide to resources for students taking H 136 at Caltech.",
         "friendly_url": "https://library.caltech.edu/H136",
@@ -15105,7 +15145,7 @@
         "url": "https://library.caltech.edu/c.php?g=976640"
     },
     {
-        "count_hit": 22,
+        "count_hit": 23,
         "created": "2013-04-11 18:20:02",
         "description": "",
         "friendly_url": "https://library.caltech.edu/funding",
@@ -15150,7 +15190,7 @@
         "url": "https://library.caltech.edu/c.php?g=512698"
     },
     {
-        "count_hit": 181,
+        "count_hit": 187,
         "created": "2013-09-19 18:32:42",
         "description": "A short guide to resources for students taking Ch 242a and Ch 242b at Caltech.",
         "friendly_url": "https://library.caltech.edu/Ch242",
@@ -15315,7 +15355,7 @@
         "url": "https://library.caltech.edu/c.php?g=512705"
     },
     {
-        "count_hit": 369,
+        "count_hit": 382,
         "created": "2014-01-10 22:02:19",
         "description": "A guide to writing resources at the Caltech Library and on the Web.",
         "friendly_url": "https://library.caltech.edu/writing",
@@ -15620,7 +15660,7 @@
         "url": "https://library.caltech.edu/c.php?g=512712"
     },
     {
-        "count_hit": 628,
+        "count_hit": 636,
         "created": "2014-02-25 17:29:03",
         "description": "A guide to resources available at Caltech - these are discussed in the Crystallography Resources Library Instruction class. This resource list was originally compiled by Dana Roth.",
         "friendly_url": "https://library.caltech.edu/crystallography",
@@ -15845,7 +15885,7 @@
         "url": "https://library.caltech.edu/c.php?g=512714"
     },
     {
-        "count_hit": 67,
+        "count_hit": 70,
         "created": "2014-05-28 20:26:16",
         "description": "Information about standards and protocols available to the Caltech community.",
         "friendly_url": "https://library.caltech.edu/standards",
@@ -15930,7 +15970,7 @@
         "url": "https://library.caltech.edu/c.php?g=512717"
     },
     {
-        "count_hit": 3989,
+        "count_hit": 4077,
         "created": "2016-02-03 16:25:59",
         "description": "A brief guide to getting started with Web of Science for members of the Caltech community.",
         "friendly_url": "https://library.caltech.edu/WoS",
@@ -16155,7 +16195,7 @@
         "url": "https://library.caltech.edu/c.php?g=512744"
     },
     {
-        "count_hit": 42,
+        "count_hit": 46,
         "created": "2017-03-17 21:05:50",
         "description": "This quick guide provides tips for locating research articles online that are free to read without subscription or payment.",
         "friendly_url": "https://library.caltech.edu/free-articles",
@@ -16260,7 +16300,7 @@
         "url": "https://library.caltech.edu/c.php?g=642889"
     },
     {
-        "count_hit": 66,
+        "count_hit": 73,
         "created": "2019-04-15 19:53:29",
         "description": "A short guide to resources for students taking Ge/ESE 170 at Caltech.",
         "friendly_url": "https://library.caltech.edu/Ge170",
@@ -16425,7 +16465,7 @@
         "url": "https://library.caltech.edu/c.php?g=930123"
     },
     {
-        "count_hit": 385,
+        "count_hit": 398,
         "created": "2022-03-31 00:33:26",
         "description": "Find what you need for your research or classes in our catalog, ebook and journal list, databases, or course reserves.",
         "friendly_url": "https://library.caltech.edu/search",
@@ -16726,11 +16766,11 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-15 17:19:13",
+        "updated": "2022-06-28 01:53:11",
         "url": "https://library.caltech.edu/c.php?g=1229405"
     },
     {
-        "count_hit": 126,
+        "count_hit": 132,
         "created": "2008-09-30 20:44:07",
         "description": "Resources for Computer Science research at Caltech",
         "friendly_url": "https://library.caltech.edu/cs",
@@ -16835,7 +16875,7 @@
         "url": "https://library.caltech.edu/c.php?g=512623"
     },
     {
-        "count_hit": 36,
+        "count_hit": 37,
         "created": "2009-05-06 22:35:54",
         "description": "",
         "friendly_url": "https://library.caltech.edu/materials",
@@ -16880,7 +16920,7 @@
         "url": "https://library.caltech.edu/c.php?g=512646"
     },
     {
-        "count_hit": 222,
+        "count_hit": 226,
         "created": "2014-07-23 17:15:04",
         "description": "Open Researcher and Contributor ID (ORCID)",
         "friendly_url": "https://library.caltech.edu/orcid",
@@ -16971,24 +17011,24 @@
                 "url": "https://library.caltech.edu/c.php?g=512719&p=3502814"
             },
             {
-                "column_layout": "{\"1\":{\"span\":9},\"2\":{\"span\":3}}",
-                "created": "2014-07-23 18:22:36",
-                "description": "Sample Caltech faculty records",
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-06-27 23:30:40",
+                "description": "",
                 "enable_display": "1",
                 "enable_newwin": "0",
                 "er_course_id": "0",
                 "friendly_url": null,
-                "id": "3502833",
-                "name": "Caltech Examples",
-                "num_cols": "2",
+                "id": "9144809",
+                "name": "ORCID & SciENcv",
+                "num_cols": "1",
                 "parent_id": "0",
                 "position": "4",
                 "redirect_url": "",
                 "slug_id": "0",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2014-07-24 19:57:01",
-                "url": "https://library.caltech.edu/c.php?g=512719&p=3502833"
+                "updated": "2022-06-27 23:31:06",
+                "url": "https://library.caltech.edu/c.php?g=512719&p=9144809"
             }
         ],
         "published": "2014-07-24 14:58:12",
@@ -17001,11 +17041,11 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-04-21 16:56:26",
+        "updated": "2022-06-27 23:38:47",
         "url": "https://library.caltech.edu/c.php?g=512719"
     },
     {
-        "count_hit": 48,
+        "count_hit": 50,
         "created": "2015-11-04 18:09:56",
         "description": "Large format (36\" max) printer",
         "friendly_url": "https://library.caltech.edu/largescaleprinter",
@@ -17050,7 +17090,7 @@
         "url": "https://library.caltech.edu/c.php?g=512736"
     },
     {
-        "count_hit": 6033,
+        "count_hit": 6041,
         "created": "2009-08-31 22:11:34",
         "description": "Ph.D. theses must be submitted in electronic form as part of the graduation requirements for Caltech.  This guide serves as a stepping-off point for this process.",
         "friendly_url": "https://library.caltech.edu/theses",
@@ -17391,11 +17431,11 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-05-27 19:14:43",
+        "updated": "2022-06-27 23:54:13",
         "url": "https://library.caltech.edu/c.php?g=512628"
     },
     {
-        "count_hit": 1544,
+        "count_hit": 1553,
         "created": "2008-11-14 16:28:19",
         "description": "The Caltech Collection of Open Digital Archives (CODA): the Institute's collections of faculty research publications and other content supporting the mission of the Institute.",
         "friendly_url": "https://library.caltech.edu/CODA",
@@ -17690,7 +17730,7 @@
         "url": "https://library.caltech.edu/c.php?g=512718"
     },
     {
-        "count_hit": 278,
+        "count_hit": 281,
         "created": "2019-09-17 16:58:27",
         "description": "",
         "friendly_url": "https://library.caltech.edu/iThenticate",
@@ -17860,7 +17900,7 @@
         "url": "https://library.caltech.edu/c.php?g=1247980"
     },
     {
-        "count_hit": 420,
+        "count_hit": 421,
         "created": "2020-06-29 16:44:25",
         "description": "",
         "friendly_url": "https://library.caltech.edu/edbi",
@@ -17985,7 +18025,7 @@
         "url": "https://library.caltech.edu/c.php?g=1054292"
     },
     {
-        "count_hit": 331,
+        "count_hit": 332,
         "created": "2022-04-06 16:24:08",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/collections",
@@ -18150,7 +18190,7 @@
         "url": "https://library.caltech.edu/c.php?g=1230812"
     },
     {
-        "count_hit": 266,
+        "count_hit": 269,
         "created": "2022-04-06 16:24:56",
         "description": "",
         "friendly_url": "https://library.caltech.edu/archives/exhibits",
@@ -18750,7 +18790,7 @@
         "url": "https://library.caltech.edu/c.php?g=512677"
     },
     {
-        "count_hit": 86,
+        "count_hit": 89,
         "created": "2014-09-29 16:33:14",
         "description": "A short guide to resources for students taking Bi/BE 24 at Caltech.",
         "friendly_url": "https://library.caltech.edu/Bi24",
