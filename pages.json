@@ -3520,7 +3520,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-29 22:20:57",
+        "updated": "2022-07-13 01:54:58",
         "url": "https://library.caltech.edu/c.php?g=1212590"
     },
     {
@@ -17486,7 +17486,7 @@
         "group_id": 10729,
         "id": 512659,
         "name": "Copyright Support and Issues",
-        "nav_type": 0,
+        "nav_type": 2,
         "owner_id": 84551,
         "pages": [
             {
@@ -17538,7 +17538,7 @@
                 "er_course_id": "0",
                 "friendly_url": null,
                 "id": "3502847",
-                "name": "Intellectual Property Counsel",
+                "name": "Caltech - Intellectual Property offices",
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "4",
@@ -17546,7 +17546,7 @@
                 "slug_id": "0",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2016-03-25 23:55:33",
+                "updated": "2022-07-12 22:11:01",
                 "url": "https://library.caltech.edu/c.php?g=512659&p=3502847"
             },
             {
@@ -17600,7 +17600,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-05-05 23:17:43",
+        "updated": "2022-07-12 22:40:17",
         "url": "https://library.caltech.edu/c.php?g=512659"
     },
     {
