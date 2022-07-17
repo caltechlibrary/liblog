@@ -1,0 +1,391 @@
+<div class="s-lib-main s-lib-side-borders" id="s-lg-guide-main" tabindex="-1">
+ <div class="c3-wrapper c3-page-title">
+  <div class="container">
+   <div class="row s-lg-row" id="c3-page-title-row">
+    <div class="col-md-12" id="s-lg-col-99">
+     <div class="s-lg-col-boxes">
+      <h1 id="s-lg-guide-name">
+       Virtual Reality (VR) (Currently unavailable)
+      </h1>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="container c3-landing-hide">
+  <div class="row s-lg-row" id="c3-content-row">
+   <div class="col-md-8" id="s-lg-col-1">
+    <div class="s-lg-col-boxes">
+     <div class="s-lg-box-wrapper-33747837" id="s-lg-box-wrapper-33747837">
+      <div class="s-lib-box-container" id="s-lg-box-28699353-container">
+       <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28699353">
+        <div id="s-lg-box-collapse-28699353">
+         <div class="s-lib-box-content s-lib-floating-box-content">
+          <div class="clearfix" id="s-lg-content-66694380">
+           <h2>
+            <img alt="virtual network of pods" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/use-library-tech-virtual-reality.jpg"/>
+           </h2>
+           <h2>
+            Due to COVID restrictions, the VR Workstation is currently unavailable.
+           </h2>
+           <p>
+            Caltech Library now has a Virtual Reality Workstation that is available to the Caltech Community.  The Workstation includes a HTC Vive goggles, 2 Vive controllers, and a computer with a Nvidia GeForce GTX 1070 graphics card.
+           </p>
+           <p>
+            To use the workstation, reserve Sherman Fairchild Room 326 at
+            <a href="http://libcal.caltech.edu/booking/gsr">
+             http://libcal.caltech.edu/booking/gsr
+            </a>
+            .  Then check out the key to the workstation at the SFL circulation desk.
+           </p>
+           <p>
+            Have you used the workstation?  How was your experience?  Send us feedback at
+            <a class="spamspan" href="mailto:helpdesk@library.caltech.edu">
+             helpdesk@library.caltech.edu
+            </a>
+           </p>
+           <p>
+            We can provide a demonstration of the VR workstation - schedule a session by emailing
+            <a class="spamspan" href="mailto:tmorrell@caltech.edu">
+             tmorrell@caltech.edu
+            </a>
+           </p>
+           <h3>
+            Available Software
+           </h3>
+           <p>
+            <a href="https://www.library.caltech.edu/software/computers/vr-workstation">
+             Supported VR Software List
+            </a>
+            - Many of the pre-installed VR programs are available through Steam, which you can find in the Start menu.  Login information is provided on the cart information sheet.  You can download other free VR software from the Steam store, although software that is not on the supported list may be removed at any time.  If you'd like us to install other software, contact us at
+            <a class="spamspan" href="mailto:helpdesk@library.caltech.edu">
+             helpdesk@library.caltech.edu
+            </a>
+           </p>
+           <p>
+            <a href="https://data.caltech.edu/search?page=1&amp;size=25&amp;ln=en&amp;q=&amp;cal_resource_type=interactiveresource">
+             VR Software from the Caltech Community
+            </a>
+            - A list of VR software that you can download and use, created by the Caltech Community.  You'll have to unzip the _data folder and move the folder with content to the same level as the .exe application.
+           </p>
+           <h3>
+            Tips and Tricks
+           </h3>
+           <ul>
+            <li>
+             The VR workstation is set to use all the space within the orange tape on the carpet.  It is best if you move all tables and chairs to the side of the room.  The tables fold up by pulling a lever under the table top toward the edge of the table.
+            </li>
+            <li>
+             You can adjust size of the head strap using Velcro tabs on both sides.
+            </li>
+            <li>
+             It can be helpful to set your Interpupillary distance (IPD).  Measure your IPD by using the card in the cart, or following the instructions at
+             <a href="http://doc-ok.org/?p=898">
+              http://doc-ok.org/?p=898
+             </a>
+             .  Set your IPD by adjusting the knob on the lower right hand side of the headset.
+            </li>
+            <li>
+             If you wear glasses it can be easier to get your glasses positioned first, before putting on the head strap.  The distance between the headset and lenses can be adjusted by popping out the gray rings on the side of the headset and rotating.  Make sure to push the gray rings back in once you are happy with the distance.
+            </li>
+            <li>
+             The lenses can sometimes get dirty.  You can gently clean them with the microfiber cloth in the cart.
+            </li>
+           </ul>
+           <h2>
+            Custom Visualizations
+           </h2>
+           <h3>
+            Creating Custom Environments in Unity
+           </h3>
+           <p>
+            The workstation has Unity 5.6.3p1, which can be used to create new interactive worlds.  It’s easy to import a 3D object generated elsewhere and place it into a VR environment.
+           </p>
+           <h3>
+            To set up a basic environment:
+           </h3>
+           <ul>
+            <li>
+             Open SteamVR
+            </li>
+            <li>
+             If you need to log into unity, see the information sheet on the cart.
+            </li>
+            <li>
+             Open up Unity and make a New project.  Click Add Asset Package and check SteamVR.   Save the project to your IMSS share
+            </li>
+            <li>
+             You’ll get a list of recommended project settings.  Click Accept All
+            </li>
+            <li>
+             There are lots of panels in the Unity environment.  Click Scene in the top center of the winodw to see your working environment, and click project on the lower left to see the contents of your project.
+            </li>
+            <li>
+             In the lower right hand panel you'll see a SteamVR folder under Assets.  These are the elements you need to make Unity talk to the VR goggles.
+            </li>
+            <li>
+             Double Click on SteamVR and Prefabs
+            </li>
+            <li>
+             Drag CameraRig and SteamVR to your project (the panel just above assets)
+            </li>
+            <li>
+             Delete Main Camera (you’re using the VR goggles as your camera)
+            </li>
+            <li>
+             Click on the CameraRig in your project.  You'll see information about the camera in the right hand Inspector panel. Find Steam VR_Play Area and set the size to “Calibrated”
+            </li>
+            <li>
+             Drag your .mtl file from where you saved on the computer it to "Assets" (right on top of the text)
+            </li>
+            <li>
+             Drag your .obj file to "Assets".
+            </li>
+            <li>
+             Your object will show up in the middle panel when you click on "Assets".  Drag your object to your scene, which is in the middle of the Unity workspace.
+            </li>
+            <li>
+             Move and orient your object in the play space by using the cross symbol in the middle of object. Click/drag on each axes to move the object.
+            </li>
+            <li>
+             You can rotate the object by changing to rotate mode.  Mode buttons are in the top left of the unity interface, and rotate is the button with circular arrows. Rotate the object by clicking/dragging along an axis of rotation.
+            </li>
+            <li>
+             Click the play button at the top of the window to view the object in the 3D goggles!
+            </li>
+            <li>
+             Click File/Save Project to save
+            </li>
+            <li>
+             You can package your visualization as a Windows program (.exe) by clicking File/Build and Run and using the default setting
+            </li>
+           </ul>
+           <h3>
+            Visualizing Proteins
+           </h3>
+           <ul>
+            <li>
+             Download your pdb file
+            </li>
+            <li>
+             Open up VMD (Under Start/University of Illinois)
+            </li>
+            <li>
+             Go to File/New Molecule and find your pdb file
+            </li>
+            <li>
+             Go to Graphics/Representations
+            </li>
+            <li>
+             Change the Drawing Method to something volumetric (New Cartoon works well).  You may have to hit “Create Rep” to generate the representation and “Delete Rep” to delete the lines (these won’t show up in the VR environment)
+            </li>
+            <li>
+             You can pick out segments of the protein by using the Selected Atoms area (enter something like “chain A”
+            </li>
+            <li>
+             For each color you want to use, use a separate representation.  You can select a solid color by selecting the “ColorID” Coloring method
+            </li>
+            <li>
+             Turn off axes by clicking Display/Axes/Off
+            </li>
+            <li>
+             Save your representation by going to “File/Render” and selecting “Wavefront (OBJ and MTL)” Click the “Browse” button.  Navigate to a location to save your object and type in a filename with .obj extension (eg. “rendered.obj”).  Then click “Start Rendering”.  VMD will generate an .obj and .mtl file
+            </li>
+           </ul>
+           <h3>
+            Sharing your VR Creation
+           </h3>
+           <p>
+            Have you created a VR application you want to share with the Caltech community?  Upload it to
+            <a href="https://data.caltech.edu">
+             https://data.caltech.edu
+            </a>
+            by clicking "Submit a Data Set" and choosing the resource type "Interactive Resource".  Make sure to zip your "application"_data folder and upload it along with the .exe application.
+           </p>
+           <h2>
+            Other Campus VR Resources
+           </h2>
+           <p>
+            Contact each organization for more information and access
+           </p>
+           <p>
+            <a href="http://murray-lab.caltech.edu/">
+             Bruce Murray Laboratory for Planetary Visualization
+            </a>
+            - Division of Geological &amp; Planetary Sciences, Arms 262.
+           </p>
+           <p>
+            <a href="http://cd3.caltech.edu/">
+             Center for Data-Driven Discovery
+            </a>
+            -  Powell-Booth Laboratory
+           </p>
+           <p>
+            <a href="http://www.music-theater-art.caltech.edu/art.html">
+             Art House
+            </a>
+            - Building 67 Annex
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4" id="s-lg-col-2">
+    <div class="s-lg-col-boxes">
+     <div id="c3-sidenav">
+      <ul class="list-unstyled">
+       <li class="">
+        <a class="" href="https://library.caltech.edu/tech/tech" title="">
+         <span>
+          Use Library Tech
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="s-lg-tab-top-link" href="https://library.caltech.edu/tech/print" title="">
+         <span>
+          Printing &amp; Scanning
+         </span>
+        </a>
+        <ul class="s-lg-subtab-ul">
+         <li class="">
+          <a href="https://library.caltech.edu/c.php?g=1231422&amp;p=9082707" style=" " title="">
+           Large-Scale Printing &amp; Scanning
+          </a>
+         </li>
+         <li class="">
+          <a href="https://library.caltech.edu/c.php?g=1231422&amp;p=9117957" style=" " title="">
+           Scanning
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/tech/computers" title="">
+         <span>
+          Computers &amp; Software
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="s-lg-tab-top-link" href="https://library.caltech.edu/tech/borrow" title="">
+         <span>
+          Borrow Tech
+         </span>
+        </a>
+        <ul class="s-lg-subtab-ul">
+         <li class="">
+          <a href="https://library.caltech.edu/tech/borrow/form" style=" " title="">
+           Equipment Reservation Form
+          </a>
+         </li>
+         <li class="">
+          <a href="https://library.caltech.edu/c.php?g=1231422&amp;p=9082685" style=" " title="">
+           iPad Reset Instructions
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="">
+        <a class="" href="/techhub" title="">
+         <span>
+          TechHub
+         </span>
+        </a>
+       </li>
+       <li class="">
+        <a class="" href="https://library.caltech.edu/tech/tools" title="Access tools for plagiarism screening, citation management, electronic lab notebooks, and scientific text editing.">
+         <span>
+          Online Tools
+         </span>
+        </a>
+       </li>
+       <li class="active">
+        <a class="active" href="https://library.caltech.edu/tech/vr" title="">
+         <span>
+          Virtual Reality (VR) (Currently unavailable)
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="container c3-introduction c3-content-hide hidden">
+  <div class="row s-lg-row" id="c3-introduction-row">
+   <div class="col-md-6 c3-description" id="s-lg-col-21">
+    <div class="s-lg-col-boxes">
+    </div>
+   </div>
+   <div class="col-md-5 col-md-offset-1 c3-quicklinks" id="s-lg-col-22">
+    <div class="s-lg-col-boxes">
+     <h2>
+      Quick Links
+     </h2>
+     <div class="panel panel-primary c3-admin-show" style="display:none">
+      <div class="panel-heading">
+       <h3 class="panel-title">
+        Quick Links
+       </h3>
+      </div>
+      <div class="panel-body">
+       Add a box here in Column 22 with Rich Text / HTML content containing a bulleted list of Quick Links.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="c3-cards-wrapper c3-content-hide hidden">
+  <div class="container">
+   <div class="row s-lg-row equalheights" id="c3-cards-row-1">
+    <div class="col-md-4" id="s-lg-col-31">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-32">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-33">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+   <div class="row s-lg-row equalheights" id="c3-cards-row-2">
+    <div class="col-md-4" id="s-lg-col-34">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-35">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-36">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+   <div class="row s-lg-row equalheights" id="c3-cards-row-3">
+    <div class="col-md-4" id="s-lg-col-37">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-38">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+    <div class="col-md-4" id="s-lg-col-39">
+     <div class="s-lg-col-boxes">
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
