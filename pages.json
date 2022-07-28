@@ -3436,7 +3436,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-25 23:34:27",
+        "updated": "2022-07-27 16:29:02",
         "url": "https://library.caltech.edu/c.php?g=1212590"
     },
     {
@@ -7520,7 +7520,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-15 20:34:18",
+        "updated": "2022-07-27 23:10:04",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
@@ -9548,7 +9548,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-29 17:37:39",
+        "updated": "2022-07-27 18:33:03",
         "url": "https://library.caltech.edu/c.php?g=1231470"
     },
     {
@@ -16940,6 +16940,46 @@
                 "type_id": "1",
                 "updated": "2022-06-28 21:23:03",
                 "url": "https://library.caltech.edu/c.php?g=1229405&p=9147057"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-07-27 17:03:11",
+                "description": "Frequently Asked Questions about Course Reserves",
+                "enable_display": "1",
+                "enable_newwin": "0",
+                "er_course_id": "0",
+                "friendly_url": "https://library.caltech.edu/search/reserves/faqs",
+                "id": "9195052",
+                "name": "Course Reserves FAQs",
+                "num_cols": "1",
+                "parent_id": "9016467",
+                "position": "5",
+                "redirect_url": "",
+                "slug_id": "2630525",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-07-27 17:07:56",
+                "url": "https://library.caltech.edu/c.php?g=1229405&p=9195052"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-07-27 23:11:45",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "0",
+                "er_course_id": "0",
+                "friendly_url": null,
+                "id": "9196300",
+                "name": "Caltech Magazine",
+                "num_cols": "1",
+                "parent_id": "8995469",
+                "position": "5",
+                "redirect_url": "",
+                "slug_id": "0",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-07-27 23:11:45",
+                "url": "https://library.caltech.edu/c.php?g=1229405&p=9196300"
             }
         ],
         "published": "2022-06-15 17:19:13",
@@ -16952,7 +16992,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-28 21:23:03",
+        "updated": "2022-07-27 23:11:45",
         "url": "https://library.caltech.edu/c.php?g=1229405"
     },
     {
@@ -18016,7 +18056,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-21 16:02:34",
+        "updated": "2022-07-27 21:07:26",
         "url": "https://library.caltech.edu/c.php?g=1230812"
     },
     {
