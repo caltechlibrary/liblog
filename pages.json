@@ -384,7 +384,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-07-26 20:34:55",
+        "updated": "2022-08-02 17:06:25",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -3186,7 +3186,7 @@
                 "er_course_id": "0",
                 "friendly_url": null,
                 "id": "9059083",
-                "name": "Senior Thesis Submissions",
+                "name": "Senior Thesis Deposits",
                 "num_cols": "1",
                 "parent_id": "0",
                 "position": "12",
@@ -3194,7 +3194,7 @@
                 "slug_id": "0",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-05-05 23:01:48",
+                "updated": "2022-08-02 21:55:45",
                 "url": "https://library.caltech.edu/c.php?g=1237965&p=9059083"
             },
             {
@@ -3328,7 +3328,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-07-11 20:39:03",
+        "updated": "2022-08-02 22:03:47",
         "url": "https://library.caltech.edu/c.php?g=1237965"
     },
     {
@@ -3436,7 +3436,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-29 15:47:10",
+        "updated": "2022-08-03 00:42:17",
         "url": "https://library.caltech.edu/c.php?g=1212590"
     },
     {
@@ -7520,7 +7520,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-28 19:17:59",
+        "updated": "2022-08-02 23:01:55",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
