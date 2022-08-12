@@ -384,7 +384,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-02 17:06:25",
+        "updated": "2022-08-11 15:32:45",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -3328,7 +3328,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-08-03 17:13:06",
+        "updated": "2022-08-11 15:56:42",
         "url": "https://library.caltech.edu/c.php?g=1237965"
     },
     {
@@ -5812,26 +5812,6 @@
                 "type_id": "1",
                 "updated": "2018-05-14 17:39:40",
                 "url": "https://library.caltech.edu/c.php?g=512715&p=5972489"
-            },
-            {
-                "column_layout": "{\"1\":{\"span\":12}}",
-                "created": "2018-12-10 17:16:32",
-                "description": "",
-                "enable_display": "1",
-                "enable_newwin": "0",
-                "er_course_id": "0",
-                "friendly_url": null,
-                "id": "6463634",
-                "name": "Fall 2021",
-                "num_cols": "1",
-                "parent_id": "0",
-                "position": "3",
-                "redirect_url": "",
-                "slug_id": "0",
-                "source_id": "0",
-                "type_id": "1",
-                "updated": "2021-09-02 14:43:56",
-                "url": "https://library.caltech.edu/c.php?g=512715&p=6463634"
             }
         ],
         "published": "2014-09-05 15:37:58",
@@ -5844,7 +5824,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-05-21 23:13:07",
+        "updated": "2022-08-11 17:02:59",
         "url": "https://library.caltech.edu/c.php?g=512715"
     },
     {
