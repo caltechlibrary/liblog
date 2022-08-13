@@ -384,7 +384,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-11 15:32:45",
+        "updated": "2022-08-12 17:36:32",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -9082,7 +9082,7 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/tech/vr",
                 "id": "9028023",
-                "name": "Virtual Reality (VR) (Currently unavailable)",
+                "name": "Virtual Reality (VR)",
                 "num_cols": "1",
                 "parent_id": "0",
                 "position": "7",
@@ -9090,7 +9090,7 @@
                 "slug_id": "2569108",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-05-23 22:44:13",
+                "updated": "2022-08-12 21:48:46",
                 "url": "https://library.caltech.edu/c.php?g=1231422&p=9028023"
             },
             {
@@ -9324,7 +9324,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-23 22:22:59",
+        "updated": "2022-08-12 21:48:46",
         "url": "https://library.caltech.edu/c.php?g=1231422"
     },
     {
@@ -14152,7 +14152,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-03 17:38:53",
+        "updated": "2022-08-12 17:42:00",
         "url": "https://library.caltech.edu/c.php?g=512638"
     },
     {
