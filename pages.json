@@ -5824,7 +5824,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-08-16 20:43:57",
+        "updated": "2022-08-17 14:55:58",
         "url": "https://library.caltech.edu/c.php?g=512715"
     },
     {
@@ -6397,7 +6397,7 @@
                 "name": "Data Storage Hardware and Services",
                 "num_cols": "1",
                 "parent_id": "9028034",
-                "position": "3",
+                "position": "4",
                 "redirect_url": "",
                 "slug_id": "2569124",
                 "source_id": "0",
@@ -6417,7 +6417,7 @@
                 "name": "Data Management Plans",
                 "num_cols": "1",
                 "parent_id": "9028034",
-                "position": "1",
+                "position": "2",
                 "redirect_url": "",
                 "slug_id": "2573363",
                 "source_id": "0",
@@ -6437,7 +6437,7 @@
                 "name": "Data Management and Sharing",
                 "num_cols": "1",
                 "parent_id": "9028034",
-                "position": "2",
+                "position": "3",
                 "redirect_url": "",
                 "slug_id": "2574923",
                 "source_id": "0",
@@ -6484,6 +6484,26 @@
                 "type_id": "1",
                 "updated": "2022-06-06 20:33:49",
                 "url": "https://library.caltech.edu/c.php?g=1231408&p=9111028"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-08-17 18:11:34",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "0",
+                "er_course_id": "0",
+                "friendly_url": "https://library.caltech.edu/publish/data/nih-policy",
+                "id": "9237016",
+                "name": "NIH Data Management and Sharing Policy",
+                "num_cols": "1",
+                "parent_id": "9028034",
+                "position": "1",
+                "redirect_url": "",
+                "slug_id": "2646080",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-08-17 18:11:34",
+                "url": "https://library.caltech.edu/c.php?g=1231408&p=9237016"
             }
         ],
         "published": "2022-05-11 16:49:16",
@@ -6496,7 +6516,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-15 20:13:23",
+        "updated": "2022-08-17 22:16:04",
         "url": "https://library.caltech.edu/c.php?g=1231408"
     },
     {
@@ -7076,7 +7096,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-07 22:53:29",
+        "updated": "2022-08-17 18:07:56",
         "url": "https://library.caltech.edu/c.php?g=1231325"
     },
     {
@@ -7500,7 +7520,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-09 22:53:26",
+        "updated": "2022-08-17 18:12:35",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
