@@ -384,7 +384,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-15 20:45:24",
+        "updated": "2022-08-18 22:45:37",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -6877,7 +6877,7 @@
         "friendly_url": "",
         "group_id": 10729,
         "id": 512668,
-        "name": "Journals: Abbr/Pricing/CrossRef/AuID/Rank",
+        "name": "Journals: Abbreviations, Pricing, CrossRef, Author IDs and Rankings",
         "nav_type": 0,
         "owner_id": 101231,
         "pages": [
@@ -6912,7 +6912,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-04-21 16:56:53",
+        "updated": "2022-08-18 22:14:30",
         "url": "https://library.caltech.edu/c.php?g=512668"
     },
     {
@@ -16588,7 +16588,7 @@
         "thumbnail_url": "",
         "type_id": 2,
         "type_label": "Course Guide",
-        "updated": "2022-04-22 19:46:07",
+        "updated": "2022-08-18 15:11:09",
         "url": "https://library.caltech.edu/c.php?g=930123"
     },
     {
