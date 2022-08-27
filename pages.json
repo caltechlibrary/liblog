@@ -3004,7 +3004,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-23 21:56:51",
+        "updated": "2022-08-26 22:37:27",
         "url": "https://library.caltech.edu/c.php?g=512644"
     },
     {
@@ -3668,7 +3668,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-15 18:52:45",
+        "updated": "2022-08-26 22:02:36",
         "url": "https://library.caltech.edu/c.php?g=1245959"
     },
     {
@@ -4318,11 +4318,11 @@
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "1",
-                "redirect_url": "",
+                "redirect_url": "https://libcal.caltech.edu/",
                 "slug_id": "2568880",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-06-07 18:57:54",
+                "updated": "2022-08-26 21:22:31",
                 "url": "https://library.caltech.edu/c.php?g=1233570&p=9027473"
             },
             {
@@ -4476,7 +4476,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-10 20:13:08",
+        "updated": "2022-08-26 21:22:31",
         "url": "https://library.caltech.edu/c.php?g=1233570"
     },
     {
@@ -7520,7 +7520,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-19 21:11:48",
+        "updated": "2022-08-26 18:15:00",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
@@ -9344,7 +9344,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-12 21:48:46",
+        "updated": "2022-08-26 21:05:52",
         "url": "https://library.caltech.edu/c.php?g=1231422"
     },
     {
@@ -11460,7 +11460,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-06-23 18:45:18",
+        "updated": "2022-08-26 22:05:03",
         "url": "https://library.caltech.edu/c.php?g=1231481"
     },
     {
