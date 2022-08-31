@@ -1924,7 +1924,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-23 21:56:51",
+        "updated": "2022-08-30 22:59:07",
         "url": "https://library.caltech.edu/c.php?g=512627"
     },
     {
@@ -2156,7 +2156,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-07-19 22:35:52",
+        "updated": "2022-08-30 22:59:07",
         "url": "https://library.caltech.edu/c.php?g=512642"
     },
     {
@@ -2660,7 +2660,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-26 22:37:27",
+        "updated": "2022-08-30 22:48:40",
         "url": "https://library.caltech.edu/c.php?g=512644"
     },
     {
@@ -2745,7 +2745,7 @@
                 "name": "Maps & Online Map Resources",
                 "num_cols": "3",
                 "parent_id": "0",
-                "position": "5",
+                "position": "6",
                 "redirect_url": "",
                 "slug_id": "2151192",
                 "source_id": "0",
@@ -2782,15 +2782,15 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/mineralogy",
                 "id": "3502802",
-                "name": "Mineralogy",
+                "name": "Gems & Mineralogy",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "6",
+                "position": "5",
                 "redirect_url": "",
                 "slug_id": "2151200",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2021-11-02 14:18:06",
+                "updated": "2022-08-30 22:16:29",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502802"
             },
             {
@@ -2842,7 +2842,7 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/geolibnews",
                 "id": "3502856",
-                "name": "Geology Library News",
+                "name": "News & New Items",
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "2",
@@ -2850,7 +2850,7 @@
                 "slug_id": "855328",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2021-11-02 14:16:12",
+                "updated": "2022-08-30 14:21:05",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502856"
             },
             {
@@ -2865,7 +2865,7 @@
                 "name": "Elsevier<br>Ebook Program, 2017",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "17",
+                "position": "16",
                 "redirect_url": "",
                 "slug_id": "0",
                 "source_id": "0",
@@ -2885,7 +2885,7 @@
                 "name": "Cambridge<br>Ebook Program, 2017",
                 "num_cols": "1",
                 "parent_id": "0",
-                "position": "15",
+                "position": "14",
                 "redirect_url": "",
                 "slug_id": "0",
                 "source_id": "0",
@@ -2925,7 +2925,7 @@
                 "name": "Elsevier<br>Ebook Program, 2018",
                 "num_cols": "3",
                 "parent_id": "0",
-                "position": "16",
+                "position": "15",
                 "redirect_url": "",
                 "slug_id": "0",
                 "source_id": "0",
@@ -3004,7 +3004,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-29 20:16:01",
+        "updated": "2022-08-30 23:26:59",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -3328,7 +3328,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-08-11 15:56:42",
+        "updated": "2022-08-30 23:29:04",
         "url": "https://library.caltech.edu/c.php?g=1237965"
     },
     {
@@ -9660,6 +9660,26 @@
                 "type_id": "1",
                 "updated": "2022-07-19 21:29:09",
                 "url": "https://library.caltech.edu/c.php?g=1216793&p=9062034"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-08-30 23:07:03",
+                "description": "",
+                "enable_display": "0",
+                "enable_newwin": "0",
+                "er_course_id": "0",
+                "friendly_url": null,
+                "id": "9266624",
+                "name": "September 2022",
+                "num_cols": "1",
+                "parent_id": "0",
+                "position": "6",
+                "redirect_url": "",
+                "slug_id": "0",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-08-30 23:07:03",
+                "url": "https://library.caltech.edu/c.php?g=1216793&p=9266624"
             }
         ],
         "published": "2022-02-12 23:49:09",
@@ -9672,7 +9692,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-07-21 18:24:51",
+        "updated": "2022-08-30 23:07:03",
         "url": "https://library.caltech.edu/c.php?g=1216793"
     },
     {
@@ -11296,7 +11316,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-06-23 22:21:31",
+        "updated": "2022-08-30 23:28:40",
         "url": "https://library.caltech.edu/c.php?g=1045055"
     },
     {
