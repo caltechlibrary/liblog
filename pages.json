@@ -2660,7 +2660,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-31 22:04:32",
+        "updated": "2022-09-01 16:29:44",
         "url": "https://library.caltech.edu/c.php?g=512644"
     },
     {
@@ -2997,7 +2997,7 @@
                 "column_layout": "{\"1\":{\"span\":\"6\"},\"2\":{\"span\":\"6\"}}",
                 "created": "2022-08-31 18:14:34",
                 "description": "** Coming Soon **",
-                "enable_display": "1",
+                "enable_display": "0",
                 "enable_newwin": "0",
                 "er_course_id": "0",
                 "friendly_url": null,
@@ -3010,7 +3010,7 @@
                 "slug_id": "0",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-08-31 18:48:18",
+                "updated": "2022-09-01 14:30:19",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=9268871"
             }
         ],
@@ -3024,7 +3024,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-08-31 23:44:49",
+        "updated": "2022-09-01 16:43:25",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -7540,7 +7540,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-31 23:18:14",
+        "updated": "2022-09-01 13:58:34",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
