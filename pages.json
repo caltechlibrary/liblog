@@ -2722,7 +2722,7 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/geology",
                 "id": "3502740",
-                "name": "Geology",
+                "name": "Geology & Fieldwork",
                 "num_cols": "1",
                 "parent_id": "0",
                 "position": "7",
@@ -2730,7 +2730,7 @@
                 "slug_id": "2151189",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-09-02 15:20:14",
+                "updated": "2022-09-09 22:16:45",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502740"
             },
             {
@@ -3084,7 +3084,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-09-07 16:39:28",
+        "updated": "2022-09-09 22:50:22",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
