@@ -2802,7 +2802,7 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/societies",
                 "id": "3502819",
-                "name": "Publishers & Societies",
+                "name": "Publishers, Societies & Surveys",
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "13",
@@ -2810,7 +2810,7 @@
                 "slug_id": "2151204",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2021-11-02 14:26:35",
+                "updated": "2022-09-12 21:33:01",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502819"
             },
             {
@@ -3084,7 +3084,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-09-09 22:50:22",
+        "updated": "2022-09-12 21:36:06",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -9424,7 +9424,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-08-26 21:05:52",
+        "updated": "2022-09-12 15:47:50",
         "url": "https://library.caltech.edu/c.php?g=1231422"
     },
     {
@@ -9792,7 +9792,7 @@
         "thumbnail_url": "",
         "type_id": 4,
         "type_label": "Topic Guide",
-        "updated": "2022-09-10 20:04:56",
+        "updated": "2022-09-12 22:32:20",
         "url": "https://library.caltech.edu/c.php?g=1216793"
     },
     {
@@ -17112,7 +17112,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-07-29 21:23:18",
+        "updated": "2022-09-12 23:06:14",
         "url": "https://library.caltech.edu/c.php?g=1229405"
     },
     {
