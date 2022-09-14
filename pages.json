@@ -2694,7 +2694,7 @@
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502717"
             },
             {
-                "column_layout": "{\"1\":{\"span\":\"6\"},\"2\":{\"span\":\"6\"}}",
+                "column_layout": "{\"1\":{\"span\":\"5\"},\"2\":{\"span\":\"7\"}}",
                 "created": "2008-11-07 22:28:49",
                 "description": "",
                 "enable_display": "1",
@@ -2702,7 +2702,7 @@
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/earthquakes",
                 "id": "3502738",
-                "name": "Earthquakes",
+                "name": "Earthquakes & Seismology",
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "4",
@@ -2710,7 +2710,7 @@
                 "slug_id": "2151190",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2021-11-02 14:17:54",
+                "updated": "2022-09-13 22:04:06",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=3502738"
             },
             {
@@ -2996,13 +2996,13 @@
             {
                 "column_layout": "{\"1\":{\"span\":\"6\"},\"2\":{\"span\":\"6\"}}",
                 "created": "2022-08-31 18:14:34",
-                "description": "** Coming Soon **",
-                "enable_display": "0",
+                "description": "",
+                "enable_display": "1",
                 "enable_newwin": "0",
                 "er_course_id": "0",
                 "friendly_url": "https://library.caltech.edu/geology/gis",
                 "id": "9268871",
-                "name": "GIS",
+                "name": "GIS Resources",
                 "num_cols": "2",
                 "parent_id": "0",
                 "position": "8",
@@ -3010,7 +3010,7 @@
                 "slug_id": "2662077",
                 "source_id": "0",
                 "type_id": "1",
-                "updated": "2022-09-01 14:30:19",
+                "updated": "2022-09-13 21:30:52",
                 "url": "https://library.caltech.edu/c.php?g=512630&p=9268871"
             },
             {
@@ -3084,7 +3084,7 @@
         "thumbnail_url": "",
         "type_id": 3,
         "type_label": "Subject Guide",
-        "updated": "2022-09-12 21:36:06",
+        "updated": "2022-09-13 22:04:06",
         "url": "https://library.caltech.edu/c.php?g=512630"
     },
     {
@@ -7588,6 +7588,26 @@
                 "type_id": "1",
                 "updated": "2022-06-08 19:51:29",
                 "url": "https://library.caltech.edu/c.php?g=1231280&p=9116315"
+            },
+            {
+                "column_layout": "{\"1\":{\"span\":12}}",
+                "created": "2022-09-13 18:13:47",
+                "description": "",
+                "enable_display": "1",
+                "enable_newwin": "0",
+                "er_course_id": "0",
+                "friendly_url": "https://library.caltech.edu/about/newsletter",
+                "id": "9297411",
+                "name": "Subscribe to Our Newsletter",
+                "num_cols": "1",
+                "parent_id": "0",
+                "position": "11",
+                "redirect_url": "",
+                "slug_id": "2669458",
+                "source_id": "0",
+                "type_id": "1",
+                "updated": "2022-09-13 18:16:38",
+                "url": "https://library.caltech.edu/c.php?g=1231280&p=9297411"
             }
         ],
         "published": "2022-09-07 20:04:01",
@@ -7600,7 +7620,7 @@
         "thumbnail_url": "",
         "type_id": 1,
         "type_label": "General Purpose Guide",
-        "updated": "2022-09-08 22:08:23",
+        "updated": "2022-09-13 18:50:24",
         "url": "https://library.caltech.edu/c.php?g=1231280"
     },
     {
