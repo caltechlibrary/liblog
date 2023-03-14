@@ -2,7 +2,7 @@
  <div class="c3-wrapper cl-bg" id="home-bg">
   <!-- BEGIN: Page Header -->
   <!-- WARNING: GENERATED CODE *EDITS WILL BE OVERWRITTEN* -->
-  <!-- see https://github.com/caltechlibrary/libguine/commit/84cb9df -->
+  <!-- see https://github.com/caltechlibrary/libguine/commit/3531eba -->
   <header>
    <div class="container">
     <div class="row branding">
@@ -69,7 +69,7 @@
           </button>
           <ul class="dropdown-menu dropdown-menu-right">
            <li>
-            <form action="https://libguides.caltech.edu/srch.php" role="search">
+            <form action="https://library.caltech.edu/srch.php" role="search">
              <div class="input-group">
               <input aria-label="Our Website" class="form-control" name="q" placeholder="Search Our Website" type="search"/>
               <span class="input-group-btn">
@@ -217,11 +217,6 @@
          <ul>
           <li class="dropdown-header">
            What’s New
-          </li>
-          <li>
-           <a href="/blog/COVID-Updates">
-            COVID Updates
-           </a>
           </li>
           <li>
            <a href="/blog">
@@ -997,25 +992,23 @@
         <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28912669">
          <div id="s-lg-box-collapse-28912669">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67269545">
-            <div class="alert alert-info alert-dismissible" role="alert">
-             <button aria-label="Close" class="close" data-dismiss="alert" type="button">
-              <span aria-hidden="true">
-               ×
-              </span>
-             </button>
-             <strong>
-              Get It @ Caltech
-             </strong>
-             replaces CaltechConnect!
-             <a class="alert-link" href="/blog/Get-It-Caltech-replacing-CaltechConnect">
-              Read more
-              <span class="sr-only">
-               about changes to icons in our link resolver
-              </span>
-              …
-             </a>
+           <div class="s-lg-widget" id="s-lg-content-68982994">
+            <!-- see https://github.com/caltechlibrary/libguine/commit/3568bc0 -->
+            <div id="notices-library-4hoj8pnB">
+             <!-- NO NOTICES -->
             </div>
+            <!-- learned from https://stackoverflow.com/a/66625405 -->
+            <script>
+             async function fetchNotices() {
+    try {
+      let response = await fetch('https://caltechlibrary.github.io/libguine/notices/library.html');
+      document.getElementById('notices-library-4hoj8pnB').innerHTML = await response.text();
+    } catch (e) {
+      console.log('fetchNotices error:' + e);
+    }
+  }
+  fetchNotices();
+            </script>
            </div>
           </div>
          </div>
@@ -1057,7 +1050,7 @@
                 </a>
                </li>
                <li>
-                <a aria-label="A to Z list of databases." href="https://libguides.caltech.edu/az.php">
+                <a aria-label="A to Z list of databases." href="https://library.caltech.edu/az.php">
                  <i aria-hidden="true" class="fa fa-list">
                  </i>
                  View All Databases
@@ -1233,13 +1226,8 @@
            <div class="clearfix" id="s-lg-content-67045757">
             <ul>
              <li>
-              <a href="/pubfinder">
-               Find a journal
-              </a>
-             </li>
-             <li>
-              <a href="/borrow/docuserve">
-               Access DocuServe/InterLibrary Loan
+              <a href="http://Caltech.eCampus.com">
+               Purchase books at Caltech.eCampus.com
               </a>
              </li>
              <li>
@@ -1248,8 +1236,18 @@
               </a>
              </li>
              <li>
+              <a href="/borrow/docuserve">
+               Access DocuServe/InterLibrary Loan
+              </a>
+             </li>
+             <li>
               <a href="/tech/print">
                Print at the Library
+              </a>
+             </li>
+             <li>
+              <a href="https://publications.ebsco.com/?custId=s8984125&amp;groupId=main&amp;profileId=pfui&amp;resourceTypeOptionSelected=">
+               Find a journal
               </a>
              </li>
              <li>
@@ -1260,11 +1258,6 @@
              <li>
               <a href="/locations/study">
                Reserve a study room
-              </a>
-             </li>
-             <li>
-              <a href="/locations/caltech-hall/cameras">
-               Check out the Caltech Hall cameras
               </a>
              </li>
             </ul>
@@ -1309,8 +1302,8 @@
           <div class="s-lib-box-content s-lib-floating-box-content">
            <div class="clearfix" id="s-lg-content-67166796">
             <figure>
-             <a href="https://library.caltech.edu/blog/eCampus-online-bookstore">
-              <img alt="Aerial photo of the Caltech campus with text Welcome to Your New Online Bookstore Expedited Shipping" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/CalTech-Welcome-Social-2022_TNA-Instagram__1_.png"/>
+             <a href="https://library.caltech.edu/events/3mt-three-minute-thesis">
+              <img alt="green and purple hexagons and Three Minute Thesis logo" loading="lazy" src="https://libapps.s3.amazonaws.com/accounts/248745/images/Three_Minute_Thesis_Banner__Instagram_Post__Square__.png"/>
              </a>
             </figure>
            </div>
@@ -1323,23 +1316,25 @@
     </div>
     <div class="col-md-3" id="s-lg-col-32">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948532" id="s-lg-box-wrapper-33948532">
-       <div class="s-lib-box-container" id="s-lg-box-28870757-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870757">
-         <div id="s-lg-box-collapse-28870757">
+      <div class="s-lg-box-wrapper-33948546" id="s-lg-box-wrapper-33948546">
+       <div class="s-lib-box-container" id="s-lg-box-28870771-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870771">
+         <div id="s-lg-box-collapse-28870771">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166852">
+           <div class="clearfix" id="s-lg-content-67166876">
             <figure>
-             <img alt="orange, gold, and white helium balloons" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/home-latest-launch-pexels-photomix-company-226737.jpg"/>
+             <img alt="" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/CleanShot_2022-07-20_at_20.11.48@2x.png"/>
              <figcaption>
               <h3>
-               New Website!
+               New Online Bookstore
               </h3>
               <p>
-               Our new website has been under construction since the beginning of 2022, and we’re now pleased to share the results: improved navigation, enhanced accessibility, integration with Caltech Archives, streamlined content, and a vibrant new visual interface.
-               <a href="/blog/redesigned-website">
-                Learn more about the redesign.
+               The Library has partnered with eCampus.com to supply materials for all Caltech classes. Students can use free expedited shipping to order textbooks to a personal address or the library for pickup. Price matching is available:
+               <br/>
+               <a href="http://Caltech.eCampus.com">
+                Caltech.eCampus.com
                </a>
+               .
               </p>
              </figcaption>
             </figure>
@@ -1353,26 +1348,23 @@
     </div>
     <div class="col-md-3" id="s-lg-col-33">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948506" id="s-lg-box-wrapper-33948506">
-       <div class="s-lib-box-container" id="s-lg-box-28870735-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870735">
-         <div id="s-lg-box-collapse-28870735">
+      <div class="s-lg-box-wrapper-33948543" id="s-lg-box-wrapper-33948543">
+       <div class="s-lib-box-container" id="s-lg-box-28870768-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870768">
+         <div id="s-lg-box-collapse-28870768">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166847">
+           <div class="clearfix" id="s-lg-content-67166872">
             <figure>
-             <img alt="Location icon and text Get It @ Caltech" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Get_It_@_Caltech__740_×_416_px__Orange_Thick.png"/>
+             <img alt="Stylized text reading Dissertation Bootcamp March 30-31, 2023" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Diss_Bootcamp__740_×_416_px_.png"/>
              <figcaption>
               <h3>
-               <span style="color: inherit; font-family: inherit; font-size: 24px;">
-                Get It @ Caltech
-               </span>
+               Dissertation Bootcamp
               </h3>
               <p>
-               We are excited to announce
-               <strong>
-                Get It @ Caltech!
-               </strong>
-               To access Library-provided electronic resources, look for the new button in LibSearch, on journal websites, and in your favorite databases, such as Web of Science, PubMed, and SciFinder.
+               The Spring Dissertation Bootcamp is intended to provide a calm, distraction-free environment, along with refreshments and writing, copyright, and formatting support. A full day on Thursday and a half day on Friday.
+               <a href="https://libcal.caltech.edu/calendar/libraryevents/dissertationbootcampSpring2023">
+                Sign up today!
+               </a>
               </p>
              </figcaption>
             </figure>
@@ -1410,30 +1402,24 @@
    <div class="row s-lg-row equalheights">
     <div class="col-md-3" id="s-lg-col-41">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948562" id="s-lg-box-wrapper-33948562">
-       <div class="s-lib-box-container" id="s-lg-box-28870783-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870783">
-         <div id="s-lg-box-collapse-28870783">
+      <div class="s-lg-box-wrapper-33948532" id="s-lg-box-wrapper-33948532">
+       <div class="s-lib-box-container" id="s-lg-box-28870757-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870757">
+         <div id="s-lg-box-collapse-28870757">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166923">
+           <div class="clearfix" id="s-lg-content-67166852">
             <figure>
-             <img alt="Title on book cover for Managing Data for Patron Privacy" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/fvzxq1juaaylqyl-2423812-4.jpg"/>
+             <img alt="Illustration of people between bookshelves with text Classes @ Caltech Library" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Classes__740_×_416_px_.jpg"/>
              <figcaption>
               <h3>
-               Staff News
+               Library Classes
               </h3>
               <p>
-               Congratulations to our Biology and Biological Engineering Librarian Kristin Briney and her co-writer Becky Yoose on the publication of their new book
-               <a dir="auto" href="https://www.alastore.ala.org/mdpp" rel="noopener" target="_blank">
-                <em>
-                 Managing Data for
-                </em>
+               We offer workshops to help with research, data management, and various software programs, including You &amp; Your Thesis, The Unix Shell, Introduction to QGIS, Inventions, Patents, and Licensing, and more.
+               <a href="https://libcal.caltech.edu/calendar/classes?cid=3754&amp;t=d&amp;d=0000-00-00&amp;cal=3754&amp;inc=0">
+                Check out the winter 2023 schedule
                </a>
-               <em>
-                <a dir="auto" href="https://www.alastore.ala.org/mdpp" rel="noopener" target="_blank">
-                 Patron Privacy.
-                </a>
-               </em>
+               .
               </p>
              </figcaption>
             </figure>
@@ -1447,31 +1433,24 @@
     </div>
     <div class="col-md-3" id="s-lg-col-42">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948543" id="s-lg-box-wrapper-33948543">
-       <div class="s-lib-box-container" id="s-lg-box-28870768-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870768">
-         <div id="s-lg-box-collapse-28870768">
+      <div class="s-lg-box-wrapper-33948561" id="s-lg-box-wrapper-33948561">
+       <div class="s-lib-box-container" id="s-lg-box-28870782-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870782">
+         <div id="s-lg-box-collapse-28870782">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166872">
+           <div class="clearfix" id="s-lg-content-67166918">
             <figure>
-             <img alt="18th century book with illustration of the moon with cherubs" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/image034-2391095-1.jpeg"/>
+             <img alt="View of mountains from ninth floor of Caltech Hall" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/north.jpeg"/>
              <figcaption>
               <h3>
-               Borrowed Moons
+               Caltech Hall Cameras
               </h3>
               <p>
-               <a href="https://hammer.ucla.edu/drawing-down-moon">
-                “Drawing Down the Moon”
+               At the top of Caltech Hall on the ninth floor, there are two cameras that capture the
+               <a href="https://library.caltech.edu/locations/caltech-hall/cameras">
+                north and south views
                </a>
-               at the Hammer Museum includes three early modern rare books borrowed from the Caltech Archives: two editions of Galileo’s
-               <em>
-                Sidereus Nuncius
-               </em>
-               and Hevelius’
-               <em>
-                Selenographia
-               </em>
-               .
+               from the building, out over the mountains and lowlands of Pasadena and beyond. Extra exciting when it snows!
               </p>
              </figcaption>
             </figure>
@@ -1485,27 +1464,24 @@
     </div>
     <div class="col-md-3" id="s-lg-col-43">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948561" id="s-lg-box-wrapper-33948561">
-       <div class="s-lib-box-container" id="s-lg-box-28870782-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870782">
-         <div id="s-lg-box-collapse-28870782">
+      <div class="s-lg-box-wrapper-33948562" id="s-lg-box-wrapper-33948562">
+       <div class="s-lib-box-container" id="s-lg-box-28870783-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870783">
+         <div id="s-lg-box-collapse-28870783">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166918">
+           <div class="clearfix" id="s-lg-content-67166923">
             <figure>
-             <img alt="A bookshelf in the shape of a speech bubble with two shelves of books and the text Please Submit Course Reserves by Tuesday, September 6" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Submit_Your_Course_Reserves_740_x_416.png"/>
+             <img alt="Icon of a person reading behind a book with the text Libby" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Libby_App__740_×_416_px_.png"/>
              <figcaption>
               <h3>
-               Fall Course Reserves
+               Libby App
               </h3>
               <p>
-               <a href="https://library.caltech.edu/search/reserves">
-                Submit course material information
+               The Caltech Library offers access to
+               <a dir="auto" href="https://www.overdrive.com/apps/libby" rel="noopener" target="_blank">
+                Libby
                </a>
-               as early as possible and
-               <strong>
-                no later than September 6, 2022
-               </strong>
-               to ensure your requests are available before the start of the term and to allow students enough time to purchase required textbooks.
+               , the library reading app from Overdrive that lets users borrow ebooks and audiobooks for free. To access Libby, go to your app store of choice, download and open the app, choose "I have a library card," and find Caltech.
               </p>
              </figcaption>
             </figure>
@@ -1519,23 +1495,26 @@
     </div>
     <div class="col-md-3" id="s-lg-col-44">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33948546" id="s-lg-box-wrapper-33948546">
-       <div class="s-lib-box-container" id="s-lg-box-28870771-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870771">
-         <div id="s-lg-box-collapse-28870771">
+      <div class="s-lg-box-wrapper-33948506" id="s-lg-box-wrapper-33948506">
+       <div class="s-lib-box-container" id="s-lg-box-28870735-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28870735">
+         <div id="s-lg-box-collapse-28870735">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67166876">
+           <div class="clearfix" id="s-lg-content-67166847">
             <figure>
-             <img alt="Six boxes with images and text about featured library resources" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/landing-page-for-newslett-2413190-2.png"/>
+             <img alt="Purple and blue background behind text: CAS Scifinder Discovery Platform" loading="lazy" src="https://libapps.s3.amazonaws.com/customers/64/images/Untitled_design__72__copy.png"/>
              <figcaption>
               <h3>
-               Landing Pages
+               <span style="color: inherit; font-family: inherit; font-size: 24px;">
+                CAS SciFinder Discovery Platform
+               </span>
               </h3>
               <p>
-               <a href="/borrow">
-                Landing pages
+               The new
+               <a href="https://library.caltech.edu/scifinder">
+                SciFinder Discovery Platform
                </a>
-               are one feature of our newly redesigned website. You can find a description of each menu section, quick links, and a brief overview of the that section's contents.
+               from the American Chemical Society—"accelerate game-changing discoveries with best-in-class scientific information solutions"— is now available to the Caltech community.
               </p>
              </figcaption>
             </figure>
@@ -1557,30 +1536,30 @@
          <div id="s-lg-box-collapse-28870775">
           <div class="s-lib-box-content s-lib-floating-box-content">
            <div class="clearfix" id="s-lg-content-67166910">
-            <h2>
+            <h2 id="popular-searches">
              <i aria-hidden="true" class="fa fa-line-chart">
              </i>
              Popular Searches
             </h2>
-            <ul class="list-inline">
+            <ul class="list-inline popular-searches">
              <li>
-              <a href="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,sso&amp;bquery=Synthetic+Biology&amp;cli0=FT1&amp;clv0=Y&amp;type=1&amp;searchMode=And&amp;site=eds-live&amp;scope=site&amp;custid=s8984125&amp;groupid=main&amp;profile=eds">
-               Synthetic Biology
+              <a href="https://eds.s.ebscohost.com/eds/results?vid=0&amp;sid=d2aa0d8a-ee23-4573-bcee-54303d6b2dfc%40redis&amp;bquery=Data%2BPrivacy&amp;bdata=JkF1dGhUeXBlPWlwLHNzbyZjbGkwPUZUMSZjbHYwPVkmdHlwZT0xJnNlYXJjaE1vZGU9QW5kJnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d">
+               Data Privacy
               </a>
              </li>
              <li>
-              <a href="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,sso&amp;bquery=Mars+Rover&amp;cli0=FT1&amp;clv0=Y&amp;type=1&amp;searchMode=And&amp;site=eds-live&amp;scope=site&amp;custid=s8984125&amp;groupid=main&amp;profile=eds">
-               Mars Rover
+              <a href="https://eds.p.ebscohost.com/eds/resultsadvanced?vid=1&amp;sid=84449405-785e-4024-b23c-50069ce02fcc%40redis&amp;bquery=Solar+Fuels&amp;bdata=JkF1dGhUeXBlPWlwLHNzbyZjbGkwPUZUMSZjbHYwPVkmdHlwZT0xJnNlYXJjaE1vZGU9QW5kJnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d">
+               Solar Fuels
               </a>
              </li>
              <li>
-              <a href="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,sso&amp;bquery=COVID-19&amp;cli0=FT1&amp;clv0=Y&amp;type=1&amp;searchMode=And&amp;site=eds-live&amp;scope=site&amp;custid=s8984125&amp;groupid=main&amp;profile=eds">
-               COVID-19
+              <a href="https://eds.p.ebscohost.com/eds/resultsadvanced?vid=5&amp;sid=84449405-785e-4024-b23c-50069ce02fcc%40redis&amp;bquery=brain-machine+interface&amp;bdata=JkF1dGhUeXBlPWlwLHNzbyZjbGkwPUZUMSZjbHYwPVkmdHlwZT0xJnNlYXJjaE1vZGU9QW5kJnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d">
+               Brain-Machine Interface
               </a>
              </li>
              <li>
-              <a href="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,sso&amp;bquery=black+holes&amp;cli0=FT1&amp;clv0=Y&amp;type=1&amp;searchMode=And&amp;site=eds-live&amp;scope=site&amp;custid=s8984125&amp;groupid=main&amp;profile=eds">
-               Black Holes
+              <a href="https://eds.p.ebscohost.com/eds/resultsadvanced?vid=4&amp;sid=84449405-785e-4024-b23c-50069ce02fcc%40redis&amp;bquery=twitter&amp;bdata=JkF1dGhUeXBlPWlwLHNzbyZjbGkwPUZUMSZjbHYwPVkmdHlwZT0xJnNlYXJjaE1vZGU9QW5kJnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d">
+               Twitter
               </a>
              </li>
             </ul>
@@ -1651,30 +1630,30 @@
              </h3>
              <ul>
               <li>
-               <a href="https://libcal.caltech.edu/event/9626842?hs=a">
+               <a href="https://libcal.caltech.edu/event/9626910?hs=a">
                 You and Your Thesis
                </a>
                <br/>
                <span class="s-lc-ea-date">
-                2:00pm - 3:30pm Wednesday, September 28, 2022
+                2:00pm - 3:30pm Tuesday, March 14, 2023
                </span>
               </li>
               <li>
-               <a href="https://libcal.caltech.edu/event/9635039?hs=a">
-                Finding U.S. Maps Online
+               <a href="https://libcal.caltech.edu/calendar/libraryevents/dissertationbootcampSpring2023?hs=a">
+                Spring 2023 Dissertation Writers' Bootcamp
                </a>
                <br/>
                <span class="s-lc-ea-date">
-                3:00pm - 4:00pm Thursday, October 13, 2022
+                8:30am - 4:30pm Thursday, March 30, 2023
                </span>
               </li>
               <li>
-               <a href="https://libcal.caltech.edu/event/9663997?hs=a">
-                Introduction to QGIS
+               <a href="https://libcal.caltech.edu/calendar/libraryevents/dissertationbootcampSpring2023?hs=a">
+                Spring 2023 Dissertation Writers' Bootcamp
                </a>
                <br/>
                <span class="s-lc-ea-date">
-                3:00pm - 4:30pm Thursday, October 20, 2022
+                8:30am - 12:00pm Friday, March 31, 2023
                </span>
               </li>
              </ul>
@@ -1845,7 +1824,7 @@
           <div class="s-lib-box-content s-lib-floating-box-content">
            <div class="clearfix" id="s-lg-content-67203947">
             <h2>
-             Library FAQs
+             How Do I…?
             </h2>
            </div>
            <div class="s-lg-widget" id="s-lg-content-67197923">
@@ -1855,8 +1834,8 @@
                <ul class="list-unstyled">
                 <li class="s-la-faq-listing">
                  <div class="s-la-faq-listing-q">
-                  <a href="https://libanswers.caltech.edu/faq/103650" target="_parent">
-                   Can the Library scan and post portions of a textbook for students to use?
+                  <a href="https://libanswers.caltech.edu/faq/129046" target="_parent">
+                   Do you have today's newspapers?
                   </a>
                  </div>
                  <div class="s-la-faq-listing-meta">
@@ -1865,7 +1844,7 @@
                     Last Updated:
                    </span>
                    <span class="metavalue">
-                    Sep 07, 2022
+                    Mar 02, 2023
                    </span>
                    <span class="divider">
                     |
@@ -1878,15 +1857,8 @@
                    <ul aria-label="Topics:" class="list-inline metavalue">
                     <li>
                      <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Copyright%20%26amp%3B%20Fair%20Use" target="_parent">
-                       Copyright &amp; Fair Use
-                      </a>
-                     </span>
-                    </li>
-                    <li>
-                     <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Course%20reserves%20%26amp%3B%20textbooks" target="_parent">
-                       Course reserves &amp; textbooks
+                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Collections" target="_parent">
+                       Collections
                       </a>
                      </span>
                     </li>
@@ -1906,8 +1878,8 @@
                 </li>
                 <li class="s-la-faq-listing">
                  <div class="s-la-faq-listing-q">
-                  <a href="https://libanswers.caltech.edu/faq/175447" target="_parent">
-                   How may I keep using Overleaf after I leave Caltech?
+                  <a href="https://libanswers.caltech.edu/faq/383190" target="_parent">
+                   How do I make sure publishers don't block my IP address when using Zotero Connector to collect citations?
                   </a>
                  </div>
                  <div class="s-la-faq-listing-meta">
@@ -1916,7 +1888,7 @@
                     Last Updated:
                    </span>
                    <span class="metavalue">
-                    Sep 07, 2022
+                    Feb 10, 2023
                    </span>
                    <span class="divider">
                     |
@@ -1936,8 +1908,8 @@
                     </li>
                     <li>
                      <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=LaTeX" target="_parent">
-                       LaTeX
+                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Citing" target="_parent">
+                       Citing
                       </a>
                      </span>
                     </li>
@@ -1945,6 +1917,13 @@
                      <span class="label label-topic">
                       <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=User%20access%20%26amp%3B%20privileges" target="_parent">
                        User access &amp; privileges
+                      </a>
+                     </span>
+                    </li>
+                    <li>
+                     <span class="label label-topic">
+                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Zotero" target="_parent">
+                       Zotero
                       </a>
                      </span>
                     </li>
@@ -1964,8 +1943,8 @@
                 </li>
                 <li class="s-la-faq-listing">
                  <div class="s-la-faq-listing-q">
-                  <a href="https://libanswers.caltech.edu/faq/374265" target="_parent">
-                   How do I link my existing non-Caltech Overleaf account with my Caltech account?
+                  <a href="https://libanswers.caltech.edu/faq/102929" target="_parent">
+                   Do the computers in the library have Mathematica installed?
                   </a>
                  </div>
                  <div class="s-la-faq-listing-meta">
@@ -1974,7 +1953,7 @@
                     Last Updated:
                    </span>
                    <span class="metavalue">
-                    Aug 18, 2022
+                    Jan 25, 2023
                    </span>
                    <span class="divider">
                     |
@@ -1987,29 +1966,8 @@
                    <ul aria-label="Topics:" class="list-inline metavalue">
                     <li>
                      <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Overleaf" target="_parent">
-                       Overleaf
-                      </a>
-                     </span>
-                    </li>
-                    <li>
-                     <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Publishing" target="_parent">
-                       Publishing
-                      </a>
-                     </span>
-                    </li>
-                    <li>
-                     <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=User%20access%20%26amp%3B%20privileges" target="_parent">
-                       User access &amp; privileges
-                      </a>
-                     </span>
-                    </li>
-                    <li>
-                     <span class="label label-topic">
-                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Writing%20%26amp%3B%20publishing" target="_parent">
-                       Writing &amp; publishing
+                      <a href="https://libanswers.caltech.edu/search/?t=0&amp;adv=1&amp;topics=Technology" target="_parent">
+                       Technology
                       </a>
                      </span>
                     </li>
@@ -2037,7 +1995,7 @@
            <div class="clearfix" id="s-lg-content-67327351">
             <p>
              <a href="https://libanswers.caltech.edu/">
-              View More FAQs
+              View More Popular Questions
              </a>
             </p>
            </div>

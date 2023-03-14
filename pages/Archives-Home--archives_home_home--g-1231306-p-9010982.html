@@ -2,7 +2,7 @@
  <div class="c3-wrapper ca-bg" id="home-bg">
   <!-- BEGIN: Page Header -->
   <!-- WARNING: GENERATED CODE *EDITS WILL BE OVERWRITTEN* -->
-  <!-- see https://github.com/caltechlibrary/libguine/commit/84cb9df -->
+  <!-- see https://github.com/caltechlibrary/libguine/commit/3531eba -->
   <header>
    <div class="container">
     <div class="row branding">
@@ -47,7 +47,7 @@
           </button>
           <ul class="dropdown-menu dropdown-menu-right">
            <li>
-            <form action="https://libguides.caltech.edu/srch.php" role="search">
+            <form action="https://library.caltech.edu/srch.php" role="search">
              <div class="input-group">
               <input aria-label="Our Website" class="form-control" name="q" placeholder="Search Our Website" type="search"/>
               <span class="input-group-btn">
@@ -327,27 +327,27 @@
     </div>
     <div class="col-md-10 col-md-offset-1" id="s-lg-col-99">
      <div class="s-lg-col-boxes">
-      <div class="s-lg-box-wrapper-33997382" id="s-lg-box-wrapper-33997382">
-       <div class="s-lib-box-container" id="s-lg-box-28912735-container">
-        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28912735">
-         <div id="s-lg-box-collapse-28912735">
+      <div class="s-lg-box-wrapper-33997380" id="s-lg-box-wrapper-33997380">
+       <div class="s-lib-box-container" id="s-lg-box-28912733-container">
+        <div class="s-lib-box s-lib-box-std s-lib-floating-box" id="s-lg-box-28912733">
+         <div id="s-lg-box-collapse-28912733">
           <div class="s-lib-box-content s-lib-floating-box-content">
-           <div class="clearfix" id="s-lg-content-67269638">
-            <div class="alert alert-warning alert-dismissible" role="alert">
-             <button aria-label="Close" class="close" data-dismiss="alert" type="button">
-              <span aria-hidden="true">
-               ×
-              </span>
-             </button>
-             <strong>
-              Hello!
-             </strong>
-             You’ve found our new website. Please look around and feel free to report any problems to
-             <a class="alert-link" href="mailto:library@caltech.edu">
-              library@caltech.edu
-             </a>
-             .
+           <div class="s-lg-widget" id="s-lg-content-68992592">
+            <!-- see https://github.com/caltechlibrary/libguine/commit/a4478f6 -->
+            <div id="notices-archives-YwAWE98Z">
             </div>
+            <!-- learned from https://stackoverflow.com/a/66625405 -->
+            <script>
+             async function fetchNotices() {
+    try {
+      let response = await fetch('https://caltechlibrary.github.io/libguine/notices/archives.html');
+      document.getElementById('notices-archives-YwAWE98Z').innerHTML = await response.text();
+    } catch (e) {
+      console.log('fetchNotices error:' + e);
+    }
+  }
+  fetchNotices();
+            </script>
            </div>
           </div>
          </div>
